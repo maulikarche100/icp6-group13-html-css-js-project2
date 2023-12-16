@@ -5,7 +5,7 @@
 
 .head{
     text-align: center;
-    padding: 90px;
+    padding: 100px;
 }
 
 .service-card{
@@ -25,6 +25,8 @@
     background-color: #fff;
     margin-inline: 22px;
     margin-top: 24px;
+    margin: 20px;
+    padding: 55px;
 }
 
 .card img{
