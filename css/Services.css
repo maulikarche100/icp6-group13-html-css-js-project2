@@ -7,3 +7,9 @@
     text-align: center;
     padding: 90px;
 }
+
+.service-card{
+    display: flex;
+    justify-content: center;
+
+}
