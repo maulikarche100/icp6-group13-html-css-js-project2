@@ -39,3 +39,13 @@
     padding: 3px;
     font-size: 22px;
 }
+
+@media screen  and (max-width:600px){
+    .head{
+        text-align: center;
+        padding: 60px;
+        font-size: 22px;
+        color: rgb(6, 181, 240);
+    }
+}
+    
