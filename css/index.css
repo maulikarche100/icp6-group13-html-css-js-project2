@@ -258,6 +258,11 @@ img {vertical-align: middle;}
     height: 35px;
     width: 35px;
 }
+.footer-last{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
 
 
 
