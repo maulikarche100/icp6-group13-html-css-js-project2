@@ -16,13 +16,11 @@ nav {
 header{
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(0,0,0,0.6);
-    position: fixed;
-    top: 0;
+    background: url(./../images/tajimage4\ \(2\).jpg);
+     background-size: cover;
+    position: center center;
 }
-.ul{
+ul{
     list-style: none;
 }
 li{
