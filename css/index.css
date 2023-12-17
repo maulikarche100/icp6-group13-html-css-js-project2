@@ -97,6 +97,7 @@ img {vertical-align: middle;}
 }
 .btn:hover{
     background-color:rgb(241, 170, 158) ;
+    color: black;
     height: 37px;
     width: 149px;
     border-radius: 4px;
@@ -149,7 +150,10 @@ img {vertical-align: middle;}
     color: white;
     cursor: pointer;
 }
-.btn-2{
+.btn-2:hover{
+    height: 35px;
+    background-color:rgb(241, 170, 158) ;
+    color: black;
     
 }
 
