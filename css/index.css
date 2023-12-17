@@ -242,6 +242,10 @@ img {vertical-align: middle;}
     height: 25px;
     width: 25px;
 }
+.mail-address{
+    color: white;
+    text-decoration: none;
+}
 
 
 @keyframes fade {
