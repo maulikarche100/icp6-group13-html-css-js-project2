@@ -163,8 +163,11 @@ img {vertical-align: middle;}
     margin-top: 40px;
     font-size: 25px;
 }
-.form-names{
+.forms{
     
+}
+.form-names{
+    height: 20px;
 }
 
 @keyframes fade {
