@@ -189,6 +189,12 @@ img {vertical-align: middle;}
     width: 248px;
     color: black;
 }
+.footer{
+    margin-top: 150px;
+    height: 500px;
+    width: 100%;
+    background-color: #717171;
+}
 
 @keyframes fade {
   from {opacity: .4} 
