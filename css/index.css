@@ -173,7 +173,21 @@ img {vertical-align: middle;}
     width: 250px;
     font-size: 15px;
     border-radius: 50px;
-   
+    cursor: pointer;
+}
+.form-name1{
+    height: 50px;
+    width: 250px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
+.form-name1:hover{
+    background-color:rgb(241, 170, 158) ;
+    width: 248px;
+    color: black;
 }
 
 @keyframes fade {
