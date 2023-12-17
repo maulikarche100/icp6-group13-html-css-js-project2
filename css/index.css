@@ -238,6 +238,10 @@ img {vertical-align: middle;}
     color: white;
     text-decoration: none;
 }
+.mail{
+    height: 25px;
+    width: 25px;
+}
 
 
 @keyframes fade {
