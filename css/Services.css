@@ -131,6 +131,30 @@ p {
 
 }
 
+.section-heading{
+    font-size: 40px;
+    color: #2108dd;
+    margin-top: 250px;
+    padding: 50px;
+}
+
+.card:hover {
+    background-position: 0 100%;
+}
+
+.card:hover .icon-wrapper{
+    background-color: #ffffff;
+    
+
+}
+.card:hover h3 {
+    color: #ffffff;
+}
+
+.card:hover p {
+    color: #f0f0f0;
+}
+
 
 
 
