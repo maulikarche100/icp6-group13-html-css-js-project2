@@ -7,6 +7,7 @@
     text-align: center;
     font-size: 40px;
     margin: 50px 0;
+    color: tomato;
 }
 
 .about-page-description{
@@ -81,4 +82,45 @@
     margin: 10px;
     cursor: pointer;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+@media only screen and (max-width: 600px){
+    .about-page-heading{
+        font-size: 30px;
+    }
+    .about-page-description{
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .taj-hotel-img{
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+    }
+    .taj-hotel-img1{
+        height: 150px;
+        width: 150px;
+        margin-top: 40px;
+        object-fit: cover;
+    }
+    .about-page-description1{
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .our-services{
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .taj-hotel-img2{
+        height: 150px;
+        width: 150px;
+        object-fit: ;
+    }
+    .gallery-title{
+        font-size: 15px;
+    }
+    .main-image-container{
+        
+    }
 }
