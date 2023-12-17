@@ -101,8 +101,57 @@ img {vertical-align: middle;}
     width: 149px;
     border-radius: 4px;
 }
-
-
+.attraction-div{
+    margin-top: 70px;
+}
+.attraction-title{
+    text-align: center;
+    color: tomato;
+    font-size: 70px;
+    font-family:cursive;
+}
+.img-card{
+    height: 600px;
+    width: 450px;
+}
+.img1{
+    height: 500px;
+    width: 450px;
+}
+.img1:hover{
+    width: 440px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img-text{
+    color: tomato;
+    font-family: cursive;
+    text-align: center; 
+}
+.img-text:hover{
+    cursor: pointer;
+}
+.btn-div{
+    text-align: center;
+    margin-top: 25px;
+}
+.btn-2{
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
+.btn-2{
+    
+}
 
 @keyframes fade {
   from {opacity: .4} 
