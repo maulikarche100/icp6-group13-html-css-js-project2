@@ -194,7 +194,7 @@ img {vertical-align: middle;}
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 150px;
-    height: 500px;
+    height: 420px;
     width: 100%;
     background-color: #717171;
 }
@@ -224,7 +224,7 @@ img {vertical-align: middle;}
     font-size: 15px;
 }
 .footer-connect{
-    height: 495px;
+    height: 380px;
     width: 400px;
     padding-top: 60px;
     color: white;
@@ -258,6 +258,7 @@ img {vertical-align: middle;}
     height: 35px;
     width: 35px;
 }
+
 
 
 @keyframes fade {
