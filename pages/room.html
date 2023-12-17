@@ -4,9 +4,511 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Room page</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            background-color:#ffffffe0;
+        }
+        .main-img{
+            height: 500px;
+            width: 1000px;
+            display: block;
+            margin: 0px auto;
+        }
+        .heding-1{ 
+            font-size: 50px;
+           text-align: center;
+          
+        }
+        .title-1{
+            text-align:center;
+            color: gray;
+            font-size: 20px;
+            font-family: cursive;
+        }
+        .contnare{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .contnare-card{
+            background-color:white;
+            padding: 20px;
+            margin-top: 30px;
+            margin-left: 30px;
+            width: 500px;
+            height: 600px;  
+            border-radius: 15px;  
+            position: relative;
+          border: 2px solid black;
+        }
+        .card-1-img-main{
+            height: 230px;
+           margin-left: 80px;
+           border-radius: 15px;
+           margin-top: 30px;
+        }
+        .card-1-img-main:hover{
+            height: 220px;
+        }
+        .card-dot{
+            height: 40px;
+            cursor: pointer;
+        }
+        .card-dot:hover{
+          height: 40px;
+        }
+        .card-2{
+            margin-left: 190px;
+        }
+        .card-1-titel{
+            font-family: cursive;
+            font-size: 20px;
+           text-align: center;
+        }
+        .card-1-titel2{
+            font-family: cursive;
+            text-align: center;
+            font-weight: bold;
+        }
+        .icon-1{
+            height: 20px;
+            margin: 20px;
+            cursor: pointer;
+        }
+        .icon-2{
+            height: 30px;
+            margin: 20px;
+            cursor: pointer;
+        }
+        .card-1-file{
+            margin-left: 150px;
+            position: relative;
+        }
+       
+        .btn{
+  height: 35px;
+  width: 150px;
+  margin-top: 25px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+  margin-left: 170px;
+  background-color: tomato;
+}
+.btn:hover{
+    background-color:rgb(241, 170, 158) ;
+    height: 37px;
+    width: 149px;
+    border-radius: 4px;
+}
+        .like1{
+            position: absolute;
+            width: 30px;
+            right: 20px;
+            top: -90x;
+            cursor: pointer;
+        }
+        .add-btn{
+            font-size: 25px;
+            position: absolute;
+            right: 245px;
+            bottom: -10px;
+           
+        }
+
+    </style>
 </head>
 <body>
-    <h1>room booking</h1>
-    <h1>Nikhil Gadakh </h1>
+    <img src="./../images/main-img.jpg2.png"  class="main-img"/>
+    <h1 class="heding-1">ROOMS & SUITES
+        <p class="title-1">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean...!!</p>
+    </h1>
+
+   
+
+    <div class="contnare">
+    
+   <div class="contnare-card">
+
+    <img class="like1" id="onoff" onclick="offbulb()" src="./../images/like1.png"/>
+
+    <div>
+        <img src="./../images/card-1-img.jpg" id="js-img-1" class="card-1-img-main"/>
+
+        <div class="card-2">
+            <img src="./../images/dotno-1.png" onclick="cardCangeimg1()" class="card-dot"/>
+            <img src="./../images/dotno-1.png" onclick="cardCangeimg2()" class="card-dot"/>
+            <img src="./../images/dotno-1.png" onclick="cardCangeimg3()" class="card-dot"/> 
+        </div>
+
+        <h1 class="card-1-titel">
+            Deluxe Room
+            $200/ night
+         </h1>
+         <p class="card-1-titel2">In addition to the traditional guest accommodations, this mobility room features a roll-in shower including premium bath products and combed cotton terry towels</p>
+
+        <div class="card-1-file">
+           
+            <img src="./../images/minus.png" onclick=" incrment()"  class="icon-1" />
+            <img src="./../images/people.png" class="icon-2"/>
+            <img src="./../images/plus.png" onclick="derment()" class="icon-1"/>
+            <span class="add-btn" id="element"> 1</span>
+        </div>
+
+        <button type="button" class="btn"> Book Now</button>
+
+
+      
+       
+    </div>
+
+   </div>
+
+   <div class="contnare-card">
+
+    <img class="like1" id="onoff1" onclick="offbulb1()" src="./../images/like1.png"/>
+
+    <div>
+        <img src="./../images/card-2-img1.webp" id="js-img-1-2" class="card-1-img-main"/>
+
+        <div class="card-2">
+            <img src="./../images/dotno-1.png" onclick="card2Cangeimg1()" class="card-dot"/>
+            <img src="./../images/dotno-1.png" onclick="card2Cangeimg2()" class="card-dot"/>
+            <img src="./../images/dotno-1.png" onclick="card2Cangeimg3()" class="card-dot"/> 
+        </div>
+
+        <h1 class="card-1-titel">
+            Single Room
+            $180/ night       
+         </h1>
+         <p class="card-1-titel2">Guest Rooms: Embrace contemporary elements mingled with familiar features such as our  Our modern guest rooms are freshly furnished with an oversized work desk, ergonomic chair, 36-inch flat screen TV, high-speed </p>
+
+        <div class="card-1-file">
+           
+            <img src="./../images/minus.png" onclick=" incrment2()"  class="icon-1" />
+            <img src="./../images/people.png" class="icon-2"/>
+            <img src="./../images/plus.png" onclick="derment2()" class="icon-1"/>
+            <span class="add-btn" id="element2"> 1</span>
+        </div>
+
+        <button type="button" class="btn"> Book Now</button>
+
+
+      
+       
+    </div>
+
+   </div>
+
+   <div class="contnare-card">
+
+    <img class="like1" id="onoff2" onclick="offbulb2()" src="./../images/like1.png"/>
+
+    <div>
+        <img src="./../images/card-3-img..jpeg" id="js-img-1-3" class="card-1-img-main"/>
+
+        <div class="card-2">
+            <img src="./../images/dotno-1.png" onclick="card3Cangeimg1()" class="card-dot"/>
+            <img src="./../images/dotno-1.png" onclick="card3Cangeimg2()" class="card-dot"/>
+            <img src="./../images/dotno-1.png" onclick="card3Cangeimg3()" class="card-dot"/> 
+        </div>
+
+        <h1 class="card-1-titel">
+            Double Room         
+            $150/ night
+         </h1>
+         <p class="card-1-titel2">Sink into a king Sweet Dreams bed with jumbo hypoallergenic pillows in this traditional room. Each room includes courtesy high-speed Internet access, a 36-inch HDTV, coffeemaker, roomy work desk and ergonomic chair</p>
+
+        <div class="card-1-file">
+           
+        <img src="./../images/minus.png" onclick=" incrment3()"  class="icon-1" />
+        <img src="./../images/people.png" class="icon-2"/>
+        <img src="./../images/plus.png" onclick="derment3()" class="icon-1"/>
+         <span class="add-btn" id="element3"> 1</span>
+        </div>
+
+        <button type="button" class="btn"> Book Now</button>
+
+
+      
+       
+    </div>
+
+   </div>
+
+
+   <div class="contnare-card">
+
+    <img class="like1" id="onoff3" onclick="offbulb3()" src="./../images/like1.png"/>
+
+    <div>
+        <img src="./../images/card-4-img..webp" id="js-img-1-4" class="card-1-img-main"/>
+
+        <div class="card-2">
+            <img src="./../images/dotno-1.png" onclick="card4Cangeimg1()" class="card-dot"/>
+            <img src="./../images/dotno-1.png" onclick="card4Cangeimg2()" class="card-dot"/>
+            <img src="./../images/dotno-1.png" onclick="card4Cangeimg3()" class="card-dot"/> 
+        </div>
+
+        <h1 class="card-1-titel">
+            Kids Room
+            $140/ night
+         </h1>
+         <p class="card-1-titel2">In addition to the traditional guest accommodations, this mobility room features a roll-in shower including premium bath products and combed cotton terry towels
+        </p>
+
+        <div class="card-1-file">
+           
+            <img src="./../images/minus.png" onclick=" incrment4()"  class="icon-1" />
+            <img src="./../images/people.png" class="icon-2"/>
+            <img src="./../images/plus.png" onclick="derment4()" class="icon-1"/>
+            <span class="add-btn" id="element4"> 1</span>
+        </div>
+
+        <button type="button" class="btn"> Book Now</button>
+
+
+      
+       
+    </div>
+
+   </div>
+   
+
+   
+  
+
+    </div>
+
+   <script>
+
+
+// card = 1
+      
+        function offbulb()
+        {
+            const element = document.getElementById("onoff");
+          element.src= "./../images/like2.png";
+        }
+
+
+        function incrment()
+        {
+       const incrmentelement = document.getElementById("element");
+       let quantity = parseInt(incrmentelement.innerText);
+
+       if(quantity>1){
+        incrmentelement.innerText = --quantity;
+       }
+       else{
+        alert("NOT BOOK EMTY ROOM")
+       }
+     
+         
+        }
+        function derment()
+        {
+        const dermentelement = document.getElementById("element");
+       let quantity = parseInt(dermentelement.innerText);
+      
+       if(quantity < 6){
+        dermentelement.innerText = ++quantity;
+       }
+       else{
+        alert("ONLY FRO 6 PEOPLE")
+       }
+         
+        }
+
+
+        function cardCangeimg1()
+        {
+            const element = document.getElementById("js-img-1");
+          element.src= "./../images/card-1-img-js6.jpg";
+        }
+
+        function cardCangeimg2()
+        {
+            const element = document.getElementById("js-img-1");
+          element.src= "./../images/card-1-img-js5.jpg";
+        }
+
+        function cardCangeimg3()
+        {
+            const element = document.getElementById("js-img-1");
+          element.src= "./../images/card-1-img.jpg";
+        }
+      
+        //card = 2
+
+        function offbulb1()
+        {
+            const element = document.getElementById("onoff1");
+          element.src= "./../images/like2.png";
+        }
+
+
+        function incrment2()
+        {
+       const incrmentelement = document.getElementById("element2");
+       let quantity = parseInt(incrmentelement.innerText);
+
+       if(quantity>1){
+        incrmentelement.innerText = --quantity;
+       }
+       else{
+        alert("NOT BOOK EMTY ROOM")
+       }
+     
+         
+        }
+        function derment2()
+        {
+        const dermentelement = document.getElementById("element2");
+       let quantity = parseInt(dermentelement.innerText);
+      
+       if(quantity < 3){
+        dermentelement.innerText = ++quantity;
+       }
+       else{
+        alert("ONLY FRO FAMILY")
+       }
+         
+        }
+
+        
+        function card2Cangeimg1()
+        {
+            const element = document.getElementById("js-img-1-2");
+          element.src= "./../images/card-2-img-js1.jpg";
+        }
+
+        function card2Cangeimg2()
+        {
+            const element = document.getElementById("js-img-1-2");
+          element.src= "./../images/card-2-img-js2.webp";
+        }
+
+        function card2Cangeimg3()
+        {
+            const element = document.getElementById("js-img-1-2");
+          element.src= "./../images/card-2-img-js3.webp";
+        }
+
+
+        // card=3
+
+
+        function offbulb2()
+        {
+            const element = document.getElementById("onoff2");
+          element.src= "./../images/like2.png";
+        }
+
+        function incrment3()
+        {
+       const incrmentelement = document.getElementById("element3");
+       let quantity = parseInt(incrmentelement.innerText);
+
+       if(quantity>1){
+        incrmentelement.innerText = --quantity;
+       }
+       else{
+        alert("NOT BOOK EMTY ROOM")
+       }
+     
+         
+        }
+        function derment3()
+        {
+        const dermentelement = document.getElementById("element3");
+       let quantity = parseInt(dermentelement.innerText);
+      
+       if(quantity < 8){
+        dermentelement.innerText = ++quantity;
+       }
+       else{
+        alert("ONLY FRO FAMILY")
+       }
+         
+        }
+
+        function card3Cangeimg1()
+        {
+            const element = document.getElementById("js-img-1-3");
+          element.src= "./../images/card-3-img-js1.webp";
+        }
+
+        function card3Cangeimg2()
+        {
+            const element = document.getElementById("js-img-1-3");
+          element.src= "./../images/card-3-img-js2.webp";
+        }
+
+        function card3Cangeimg3()
+        {
+            const element = document.getElementById("js-img-1-3");
+          element.src= "./../images/card-3-img-js3.webp";
+        }
+
+     // card = 4
+
+     function offbulb3()
+        {
+            const element = document.getElementById("onoff3");
+          element.src= "./../images/like2.png";
+        }
+
+        function incrment4()
+        {
+       const incrmentelement = document.getElementById("element4");
+       let quantity = parseInt(incrmentelement.innerText);
+
+       if(quantity>1){
+        incrmentelement.innerText = --quantity;
+       }
+       else{
+        alert("NOT BOOK EMTY ROOM")
+       }
+     
+         
+        }
+        function derment4()
+        {
+        const dermentelement = document.getElementById("element4");
+       let quantity = parseInt(dermentelement.innerText);
+      
+       if(quantity < 4){
+        dermentelement.innerText = ++quantity;
+       }
+       else{
+        alert("ONLY FRO KIDS")
+       }
+         
+        }
+
+        function card4Cangeimg1()
+        {
+            const element = document.getElementById("js-img-1-4");
+          element.src= "./../images/card-4-img-js1.webp";
+        }
+
+        function card4Cangeimg2()
+        {
+            const element = document.getElementById("js-img-1-4");
+          element.src= "./../images/card-4-img-js2.webp";
+        }
+
+        function card4Cangeimg3()
+        {
+            const element = document.getElementById("js-img-1-4");
+          element.src= "./../images/card-4-img-js3.webp";
+        }
+       
+   </script>
 </body>
 </html>
