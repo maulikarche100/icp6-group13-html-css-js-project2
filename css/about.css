@@ -1,3 +1,53 @@
-.novbar{
-    background-color: aliceblue;
+body{
+    padding: ;
+    margin: ;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-page-heading{
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0;
+}
+
+.about-page-description{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.taj-hotel-img{
+    border-radius: 10px;
+    margin-right: 15%;
+}
+.taj-hotel-img1{
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.about-page-description1{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+.our-services{
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+.about-page-description2{
+    
+}
+
+.taj-hotel-img2{
+    margin-right: 10%;
+    border-radius: 10px;
 }
