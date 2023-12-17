@@ -208,7 +208,6 @@ img {vertical-align: middle;}
 .about-us{
     padding-top: 60px;
     color: white;
-    font-family: cursive;
 }
 .footer-nvigation{
     height: 300px;
@@ -257,11 +256,17 @@ img {vertical-align: middle;}
 .facebook{
     height: 35px;
     width: 35px;
+    cursor: pointer;
 }
 .footer-last{
-    height: 100px;
+    height: 30px;
     width: 100%;
     background-color: black;
+}
+.last-footer-text{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
 }
 
 
