@@ -254,6 +254,10 @@ img {vertical-align: middle;}
     color: white;
     text-decoration: none;
 }
+.facebook{
+    height: 35px;
+    width: 35px;
+}
 
 
 @keyframes fade {
