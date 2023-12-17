@@ -47,6 +47,50 @@
         </div>
         <img src="../images/taj-hotel-2.jpg" class="taj-hotel-img2" />
     </div>
+
+    <div>
+      <h1 class="about-page-heading">Gallery</h1>
+      <p class="gallery-title">Explore Taj Hotel... <br> See, What We Have In Store For You </p>
+    </div>
+
+    <div class="main-image-container">
+        <img src="../images/1.jpg" class="main-hotel-image" id="main-hotel-image" />
+    </div>
+
+    <div class="images-container">
+        <img src="../images/1.jpg" class="hotel-image" onclick="changeImage(1)" />
+        <img src="../images/2.jpg" class="hotel-image" onclick="changeImage(2)"/>
+        <img src="../images/3.webp" class="hotel-image" onclick="changeImage(3)"/>
+        <img src="../images/4.jpg" class="hotel-image" onclick="changeImage(4)"/>
+        <img src="../images/5.jpg" class="hotel-image" onclick="changeImage(5)"/>
+        <img src="../images/6.jpg" class="hotel-image" onclick="changeImage(6)"/>
+        <img src="../images/7.jpg" class="hotel-image" onclick="changeImage(7)"/>
+        <img src="../images/8.jpeg" class="hotel-image" onclick="changeImage(8)"/>
+    </div>
+
+    <script>
+        function changeImage(num){
+            const mainImage = document.getElementById('main-hotel-image')
+
+            if(num==1){
+                mainImage.src = "../images/1.jpg";
+            }else if(num==2){
+                mainImage.src = "../images/2.jpg";
+            }else if(num==3){
+                mainImage.src = "../images/3.webp";
+            }else if(num==4){
+                mainImage.src = "../images/4.jpg";
+            }else if(num==5){
+                mainImage.src = "../images/5.jpg";
+            }else if(num==6){
+                mainImage.src = "../images/6.jpg";
+            }else if(num==7){
+                mainImage.src = "../images/7.jpg";
+            }else if(num==8){
+                mainImage.src = "../images/8.jpeg";
+            }
+        }
+    </script>
 </body>
 
 </html>
