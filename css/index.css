@@ -234,6 +234,10 @@ img {vertical-align: middle;}
     height: 25px;
     width: 25px;
 }
+.location-address{
+    color: white;
+    text-decoration: none;
+}
 
 
 @keyframes fade {
