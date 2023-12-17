@@ -249,6 +249,19 @@ p {
     
 }
 
+@media screen and (mim-width: 992px) {
+    
+    section{
+        padding:  1em 3em;
+        
+    }
+
+    .coloumn{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
 
 
 
