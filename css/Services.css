@@ -115,7 +115,7 @@ p {
 .section-heading{
     font-size: 40px;
     color: #2108dd;
-    margin-top: 250px;
+    margin-top: 200px;
     padding: 50px;
 }
 
@@ -135,6 +135,17 @@ p {
 .card:hover p {
     color: #f0f0f0;
 }
+
+.container {
+    background-color: #2c7bf2;
+    margin: 10px;
+    padding: 130px;
+    margin-left:  0 auto;
+    padding-left: 500px;
+
+}
+
+section-subtitle
 
 
 
