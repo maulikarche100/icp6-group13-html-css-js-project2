@@ -1,3 +1,115 @@
-.novbar{
-    background-color: aliceblue;
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.abc{
+    height: 150px;
+    width: 180px;
+    padding: 20px;
+    position:absolute;
+}
+.menus{
+    position: absolute;
+    left: 250px;
+    top: 80px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+.text-decoration{
+    text-decoration: none;
+    padding: 25px;
+    color: white;
+}
+
+
+
+/* Caption text */
+.text {
+  color: azure;
+  font-size: 110px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 130px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 1px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.second-novbar{
+    height: 150px;
+    background-color:rgb(245, 250, 254);
+}
+
+.form-1{
+    font-size: 20px;
+    padding-left: 400px;
+    padding-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.drop-down{
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+.btn{
+  height: 40px;
+  width: 150px;
+  margin-top: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+  background-color: tomato;
+}
+.btn:hover{
+    background-color:rgb(241, 170, 158) ;
+    height: 37px;
+    width: 149px;
+    border-radius: 4px;
+}
+
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
