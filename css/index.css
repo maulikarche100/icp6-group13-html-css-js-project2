@@ -195,6 +195,14 @@ img {vertical-align: middle;}
     width: 100%;
     background-color: #717171;
 }
+.footer-about-us{
+    padding-left: 170px;
+    padding-top: 60px;
+}
+.about-us{
+    color: white;
+    font-family: cursive;
+}
 
 @keyframes fade {
   from {opacity: .4} 
