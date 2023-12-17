@@ -1,3 +1,42 @@
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    padding: 25px 35px;
+    font-family:"Poppins",sans-serif;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 20px 30px rgba (0,0,0,0.15);
+}
+
+.header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+}
+.ul{
+    list-style: none;
+}
+.li{
+    display: inline-block;
+}
+.li a{
+    margin-left: 40px;
+}
+.nav a{
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
 .head{
     text-align: center;
     padding: 60px;
