@@ -156,6 +156,13 @@ img {vertical-align: middle;}
     color: black;
     
 }
+.form-div{
+    text-align: center;
+    color: tomato;
+    font-family: cursive;
+    margin-top: 40px;
+    font-size: 25px;
+}
 
 @keyframes fade {
   from {opacity: .4} 
