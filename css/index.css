@@ -190,19 +190,40 @@ img {vertical-align: middle;}
     color: black;
 }
 .footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-top: 150px;
     height: 500px;
     width: 100%;
     background-color: #717171;
 }
 .footer-about-us{
-    padding-left: 170px;
-    padding-top: 60px;
+   margin-left: 10px;
+    height: 350px;
+    width: 350px;
+    color: white;
+    border: 2px solid white;
 }
 .about-us{
+    padding-top: 60px;
     color: white;
     font-family: cursive;
 }
+.footer-nvigation{
+    height: 300px;
+    width: 400px;
+    padding-top: 60px;
+    color: white;
+    border: 2px solid white;
+
+}
+.navigation-pages{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
 
 @keyframes fade {
   from {opacity: .4} 
