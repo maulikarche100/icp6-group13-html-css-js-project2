@@ -33,8 +33,6 @@ img {vertical-align: middle;}
     font-size: 29px;
 }
 
-
-
 /* Caption text */
 .text {
   color: azure;
@@ -269,9 +267,6 @@ img {vertical-align: middle;}
     font-size: 15px;
     padding-left: 10px;
 }
-
-
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -510,6 +505,4 @@ img {vertical-align: middle;}
         font-size: 12px;
         padding-left: 10px;
     }
- 
-  
 }
