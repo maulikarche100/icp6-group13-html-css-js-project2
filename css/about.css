@@ -1,3 +1,44 @@
+.navbar{
+    background-color: #00ffbf;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-icon{
+    height: 50px;
+}
+
+.navbar-brand-name{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navbar-menu{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 45px;
+    cursor: pointer;
+    background-color: #ffe6cc;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.navbar-menu:hover{
+    background-color: #ffcc00;
+    box-shadow: 0 0 5px 2px #fff;
+    padding: 7px 22px;
+    transition: 0.5s;
+}
+
+.navbar-menu-container{
+    margin-left: 200px;
+}
+
+
 .intro{
     display: flex;
     justify-content: space-between;
@@ -76,8 +117,6 @@
     height: 70px;
     width: 70px;
     object-fit: cover;
-    border: px solid black;
-    padding: px;
     border-radius: 5px;
     margin: 10px;
     cursor: pointer;
@@ -115,12 +154,49 @@
     .taj-hotel-img2{
         height: 150px;
         width: 150px;
-        object-fit: ;
     }
     .gallery-title{
         font-size: 15px;
     }
     .main-image-container{
-        
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .main-hotel-image{
+        height: 150px;
+        width: 250px;
+    }
+    .hotel-image{
+        height: 35px;
+        width: 35px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 800px){
+    .taj-hotel-img1{
+        height: 250px;
+        width: 250px;
+        margin-top: 40px;
+        object-fit: cover;
+    }
+    .about-page-description{
+        margin-top: 0;
+    }
+    .taj-hotel-img2{
+        height: 250px;
+        width: 250px;
+    }
+    .main-image-container{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .main-hotel-image{
+        height: 300px;
+        width: 400px;
+    }
+    .hotel-image{
+        height: 50px;
+        width: 50px;
     }
 }
