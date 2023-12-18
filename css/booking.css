@@ -1,3 +1,74 @@
-.novbar{
-    background-color: aliceblue;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2d5e7a;
+    margin: 0;
+    padding: 0;
+}
+
+.infoContainer {
+    max-width: 800px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select,
+input[type="file"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #103a51;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.guests-control {
+    display: flex;
+    align-items: center;
+}
+
+.guests-control button {
+    padding: 6px 12px;
+    border: 1px solid #723232;
+    border-radius: 4px;
+    background-color: #93668d;
+    cursor: pointer;
+}
+
+.guests-control input[type="number"] {
+    width: 60px;
+    text-align: center;
+}
+
+select {
+    width: calc(50% - 6px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" viewBox="0 0 12 6" xmlns="http://www.w3.org/2000/svg"><path d="M6 6L0 0h12" /></svg>');
+    background-size: 8px 4px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) 50%;
 }

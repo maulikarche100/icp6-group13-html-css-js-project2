@@ -1,11 +1,65 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking</title>
+    <title> Booking </title>
+    <link rel="stylesheet" href="../css/booking.css">
+
 </head>
+
 <body>
-    
+
+    <div class="infoContainer">
+
+        <h2> Guest Information </h2>
+
+        <form id="guestInformationForm">
+
+            <label for="name"> Name </label>
+            <input type="text" placeholder="First Name" id="fname" name="name" required> &nbsp;&nbsp;
+            <input type="text" placeholder="Last Name" id="lname" name="name" required> <br><br>
+
+            <label for="email"> E-mail </label>
+            <input type="email" placeholder="ex.abc@gmail.com" id="email" name="email" required> <br><br>
+
+            <label for="phone"> Phone </label>
+            <input type="tel" placeholder="Phone Number" id="phone" name="phone" required> <br><br>
+
+            <label for="checkIn"> Check-In Date And Time </label>
+            <input type="date" id="checkinDate" name="checkinDate" required>
+            <input type="time" id="checkinTime" name="checkinTime" required> <br><br>
+
+            <label for="checkOut"> Check-Out Date And Time </label>
+            <input type="date" id="checkoutDate" name="checkoutDate" required>
+            <input type="time" id="checkoutTime" name="checkoutTime" required> <br><br>
+
+            <label for="numberGuest"> Number Of Guest </label>
+            <span class="guests-control">
+                <button type="button" onclick="decrementGuests()"> - </button>
+                <input type="number" id="numberOfGuests" name="numberOfGuests" value="1" min="1" max="10" required>
+                <button type="button" onclick="incrementGuests()"> + </button>
+            </span> <br><br>
+
+            Bed Type
+            <select>
+                <option> Single Bed </option>
+                <option> Twin Bed </option>
+                <option> Queen Bed </option>
+            </select>  <br><br>
+
+            Upload Your Aadhar Card
+            <input type="file" multiple accept="apllication/*">  <br><br>
+
+        </form>
+    </div>
+
+
+
+
 </body>
+
 </html>
