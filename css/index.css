@@ -120,9 +120,10 @@ img {vertical-align: middle;}
 .img1{
     height: 500px;
     width: 450px;
+    border-radius: 10px;
 }
 .img1:hover{
-    width: 440px;
+    width: 445px;
    border-radius: 10px;
    cursor: pointer;
 }
@@ -156,6 +157,7 @@ img {vertical-align: middle;}
     height: 35px;
     background-color:rgb(241, 170, 158) ;
     color: black;
+    font-size: 15px;
     
 }
 .form-div{
@@ -279,6 +281,25 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+@media only screen and (max-width: 600px) {
+    .abc{
+        height: 100px;
+        width: 140px;
+        padding: 10px;
+    }
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+    .menus{
+    position:absolute;
+    left: 150px;
+    top: 40px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    }
+  .text {font-size: 60px}
+  
 }
