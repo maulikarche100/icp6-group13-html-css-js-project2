@@ -1,28 +1,56 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #2d5e7a;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
+/* Nav Bar Start */
+
+.navBar {
+    background-color: #ffffff;
+    padding: 70px;
+}
+
+.logoImg {
+    height: 110px;
+    width: 160px;
+    padding: 20px;
+    margin: auto;
+    top: -5px;
+    left: 3px;
+    position: absolute;
+}
+
+.navbarMenue {
+    position: absolute;
+    left: 250px;
+    top: 80px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.navbarOption {
+    text-decoration: none;
+    padding: 25px;
+    color: #000000;
+}
+
+/* Nav Bar End */
+
 .infoContainer {
     max-width: 800px;
-    margin: 20px;
-    background-color: #fff;
+    margin: 40px;
     padding: 20px;
+    border: 2px solid black;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    text-align: center;
-    color: #333;
-}
-
 label {
-    display: block;
     margin-bottom: 6px;
-    color: #333;
+    color: #000000;
 }
 
 input[type="text"],
@@ -33,42 +61,88 @@ input[type="time"],
 input[type="number"],
 select,
 input[type="file"] {
-    width: 200px;
+    width: 250px;
     padding: 8px;
-    border: 1px solid #103a51;
+    border: 2px solid #000000;
     border-radius: 4px;
     margin-bottom: 10px;
-}
-
-.guests-control {
-    display: flex;
-    align-items: center;
-}
-
-.guests-control button {
-    padding: 6px 12px;
-    border: 1px solid #723232;
-    border-radius: 4px;
-    background-color: #93668d;
-    cursor: pointer;
-}
-
-.guests-control input[type="number"] {
-    width: 60px;
-    text-align: center;
+    font-size: 14px;
 }
 
 select {
-    width: calc(50% - 6px);
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 2px solid #000000;
     border-radius: 4px;
+    font-size: 15px;
     margin-bottom: 10px;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" viewBox="0 0 12 6" xmlns="http://www.w3.org/2000/svg"><path d="M6 6L0 0h12" /></svg>');
-    background-size: 8px 4px;
-    background-repeat: no-repeat;
-    background-position: calc(100% - 10px) 50%;
 }
+
+/* Footer CSS Start */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    height: 420px;
+    width: 100%;
+    background-color: #717171;
+}
+
+.foot_aboutUs {
+    margin-left: 10px;
+    height: 350px;
+    width: 350px;
+    color: white;
+    padding-top: 60px;
+}
+
+.footNavigation {
+    height: 300px;
+    width: 300px;
+    padding-top: 60px;
+    color: white;
+}
+
+.naviPages {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.footContact {
+    height: 380px;
+    width: 400px;
+    padding-top: 60px;
+    color: white;
+}
+
+.contactImg {
+    height: 25px;
+    width: 25px;
+}
+
+.contactAdd {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.socialMedia {
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.footerLast {
+    width: 100%;
+    padding: 30px;
+}
+
+.copyRight {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+
+/* Footer CSS End */
