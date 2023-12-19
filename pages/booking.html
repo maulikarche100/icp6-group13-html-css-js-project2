@@ -39,34 +39,41 @@
 
         <form id="guestInformationForm">
 
-            <label for="name"> Name </label>  &nbsp;&nbsp;&nbsp;
+            <label for="name"> Name </label> &nbsp;&nbsp;&nbsp;
             <input type="text" placeholder="First Name" id="fname" name="name" required> &nbsp;&nbsp;
             <input type="text" placeholder="Last Name" id="lname" name="name" required> <br><br>
 
-            <label for="email"> E-mail </label>  &nbsp;&nbsp;&nbsp;
+            <label for="email"> E-mail </label> &nbsp;&nbsp;&nbsp;
             <input type="email" placeholder="ex.abc@gmail.com" id="email" name="email" required> <br><br>
 
-            <label for="phone"> Contact No </label>  &nbsp;&nbsp;&nbsp;
+            <label for="phone"> Contact No </label> &nbsp;&nbsp;&nbsp;
             <input type="tel" placeholder="Phone Number" id="phone" name="phone" required> <br><br>
 
-            <label for="checkIn"> Check-In Date And Time </label>  &nbsp;&nbsp;&nbsp;
-            <input type="date" id="checkinDate" name="checkinDate" required>  &nbsp;&nbsp;&nbsp;
+            <label for="checkIn"> Check-In Date And Time </label> &nbsp;&nbsp;&nbsp;
+            <input type="date" id="checkinDate" name="checkinDate" required> &nbsp;&nbsp;&nbsp;
             <input type="time" id="checkinTime" name="checkinTime" required> <br><br>
 
-            <label for="checkOut"> Check-Out Date And Time </label>   &nbsp;&nbsp;&nbsp;
-            <input type="date" id="checkoutDate" name="checkoutDate" required>  &nbsp;&nbsp;&nbsp;
-            <input type="time" id="checkoutTime" name="checkoutTime" required> <br><br>
+            <label for="checkOut"> Check-Out Date And Time </label> &nbsp;&nbsp;&nbsp;
+            <input type="date" id="checkoutDate" name="checkoutDate" required> &nbsp;&nbsp;&nbsp;
+            <input type="time" id="checkoutTime" name="checkoutTime" required> 
 
-            <label for="numberGuest"> Number Of Guest </label>  <br><br>  &nbsp;&nbsp;&nbsp;  <br>
+            <div class="container">
+                <label for="numberGuest" class="increDecre_Guest">Number Of Guest</label>
+                <span class="for_numGuest">
+                    <img src="./../images/minus.png" onclick="incrment2()" class="numberIcons" />
+                    <span class="guestValue" id="element2">1</span>
+                    <img src="./../images/plus.png" onclick="derment2()" class="numberIcons" />
+                </span>
+            </div>
 
-            Bed Type  &nbsp;&nbsp;&nbsp;
+            Bed Type &nbsp;&nbsp;&nbsp;
             <select>
                 <option> Single Bed </option>
                 <option> Twin Bed </option>
                 <option> Queen Bed </option>
             </select> <br><br>
 
-            Upload Your Aadhar Card   &nbsp;&nbsp;&nbsp;
+            Upload Your Aadhar Card &nbsp;&nbsp;&nbsp;
             <input type="file" multiple accept="apllication/*"> <br><br>
 
         </form>
@@ -78,7 +85,8 @@
         <div class="foot_aboutUs">
             <h2 class="footHeader"> About Us </h2>
             <hr />
-            Hotel Taj is the right choice for visitors who are searching for combination of charm and joyful nature view from where to explore surroundings. Our rooms are appointed to make your stay more comfortable.
+            Hotel Taj is the right choice for visitors who are searching for combination of charm and joyful nature view
+            from where to explore surroundings. Our rooms are appointed to make your stay more comfortable.
         </div>
 
         <div class="footNavigation">
@@ -87,7 +95,7 @@
             <hr />
 
             <a href="../index.html" class="naviPages"> Home </a> <br> <br>
-            <a href="../pages/about.html" class="naviPages"> About </a> <br> <br >
+            <a href="../pages/about.html" class="naviPages"> About </a> <br> <br>
             <a href="../pages/room.html" class="naviPages"> Rooms </a> <br> <br>
             <a href="../pages/help.html" class="naviPages"> Contact </a>
 
@@ -101,20 +109,21 @@
 
             <span>
                 <image class="contactImg" src="../images/location.png" />
-                    <a class="contactAdd"
-                    href="https://www.google.com/maps/place/The+Taj+Mahal+Palace,+Mumbai/@18.9220082,72.8332028,17z/data=!3m1!5s0x3be7d1c0c4d5ac1b:0xac82d2d2d765e4f5!4m20!1m10!3m9!1s0x3be7d1c06fffffff:0xc0290485a4d73f57!2sThe+Taj+Mahal+Palace,+Mumbai!5m2!4m1!1i2!8m2!3d18.9216631!4d72.8332028!16zL20vMDZieDFj!3m8!1s0x3be7d1c06fffffff:0xc0290485a4d73f57!5m2!4m1!1i2!8m2!3d18.9216631!4d72.8332028!16zL20vMDZieDFj?entry=ttu"> &nbsp;                           Colaba, Mumbai, Maharashtra 400001    </a><br /><br />
+                <a class="contactAdd"
+                    href="https://www.google.com/maps/place/The+Taj+Mahal+Palace,+Mumbai/@18.9220082,72.8332028,17z/data=!3m1!5s0x3be7d1c0c4d5ac1b:0xac82d2d2d765e4f5!4m20!1m10!3m9!1s0x3be7d1c06fffffff:0xc0290485a4d73f57!2sThe+Taj+Mahal+Palace,+Mumbai!5m2!4m1!1i2!8m2!3d18.9216631!4d72.8332028!16zL20vMDZieDFj!3m8!1s0x3be7d1c06fffffff:0xc0290485a4d73f57!5m2!4m1!1i2!8m2!3d18.9216631!4d72.8332028!16zL20vMDZieDFj?entry=ttu">
+                    &nbsp; Colaba, Mumbai, Maharashtra 400001 </a><br /><br />
 
                 <img class="contactImg" src="../images/mail.png" />
-                <a class="contactAdd" href="mailto:tajHotel22@gmail.com"> &nbsp; tajHotel22@gmail.com    </a> <br> <br>
-                
+                <a class="contactAdd" href="mailto:tajHotel22@gmail.com"> &nbsp; tajHotel22@gmail.com </a> <br> <br>
+
                 <img class="contactImg" src="../images/phone-call.png" />
                 <a class="contactAdd" href="+91 555 6784 333"> &nbsp; +91 555 6784 333 </a>
 
             </span> <br> <br> <br>
 
             <span>
-                <img class="socialMedia" src="../images/facebook.png" />  &nbsp; &nbsp;
-                <img class="socialMedia" src="../images/twitter.png" />   &nbsp; &nbsp;
+                <img class="socialMedia" src="../images/facebook.png" /> &nbsp; &nbsp;
+                <img class="socialMedia" src="../images/twitter.png" /> &nbsp; &nbsp;
                 <img class="socialMedia" src="../images/instagram.png" /> &nbsp; &nbsp;
             </span>
 
@@ -125,8 +134,11 @@
     <div class="footerLast">
 
         <span class="copyRight"> Hotel Taj © 2023-All Rights Reserved. </span>
-    
-    </div> 
+
+    </div>
+
+
+    <script src="../js/booking.js"> </script>
 
 </body>
 

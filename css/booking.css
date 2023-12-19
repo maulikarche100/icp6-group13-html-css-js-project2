@@ -77,6 +77,34 @@ select {
     margin-bottom: 10px;
 }
 
+
+/* for guest number */
+.numberIcons {
+    height: 25px;
+    margin: 25px;
+    cursor: pointer;
+    border: 2px solid #000000;
+    padding: 5px;
+}
+
+.guestValue {
+    position: relative;
+    bottom: 37px;
+    font-size: 20px;
+    font-weight: 25px;
+    border: 2px solid #000000;
+    padding: 6px 20px;
+}
+
+.increDecre_Guest,
+.for_numGuest {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* end guest number */
+
+
 /* Footer CSS Start */
 
 .footer {
