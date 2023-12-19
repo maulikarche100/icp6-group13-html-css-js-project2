@@ -1,28 +1,23 @@
+alert('Welcome to Hotel TAJ');
 
+ let slideIndex = 0;
+showSlides();
 
-  
-        // This is a simple JavaScript code block
-        // It displays a message in the browser console
-        console.log("Hello from JavaScript!");
-
-        // Variables
-        let greeting = "Welcome to JavaScript!";
-        alert(greeting);
-
-        // Functions
-        function sayHello(name) {
-            alert("Hello, " + name + "!");
-        }
-
-        // Call the function
-        sayHello("John");
-
-        // Conditional statement
-        let number = 10;
-        if (number > 5) {
-            console.log("The number is greater than 5");
-        } else {
-            console.log("The number is not greater than 5");
-        }
+ function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1 }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
     
 

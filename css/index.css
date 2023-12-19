@@ -5,7 +5,7 @@ body {font-family: Verdana, sans-serif;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
-.slideshow-container {
+ .slideshow-container {
   max-width: 100%;
   position: relative;
   margin: auto;
@@ -20,18 +20,18 @@ img {vertical-align: middle;}
     position: absolute;
     left: 250px;
     top: 80px;
-    font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    
 }
 .text-decoration{
     text-decoration: none;
     padding: 25px;
     color: white;
+    font-size: 30px;
 }
-
-
+.text-decoration:hover{
+    font-size: 29px;
+}
 
 /* Caption text */
 .text {
@@ -118,9 +118,10 @@ img {vertical-align: middle;}
 .img1{
     height: 500px;
     width: 450px;
+    border-radius: 10px;
 }
 .img1:hover{
-    width: 440px;
+    width: 445px;
    border-radius: 10px;
    cursor: pointer;
 }
@@ -154,6 +155,7 @@ img {vertical-align: middle;}
     height: 35px;
     background-color:rgb(241, 170, 158) ;
     color: black;
+    font-size: 15px;
     
 }
 .form-div{
@@ -203,7 +205,6 @@ img {vertical-align: middle;}
     height: 350px;
     width: 350px;
     color: white;
-    border: 2px solid white;
 }
 .about-us{
     padding-top: 60px;
@@ -214,7 +215,6 @@ img {vertical-align: middle;}
     width: 400px;
     padding-top: 60px;
     color: white;
-    border: 2px solid white;
 
 }
 .navigation-pages{
@@ -227,7 +227,6 @@ img {vertical-align: middle;}
     width: 400px;
     padding-top: 60px;
     color: white;
-    border: 2px solid white;
 }
 .location{
     height: 25px;
@@ -268,15 +267,241 @@ img {vertical-align: middle;}
     font-size: 15px;
     padding-left: 10px;
 }
-
-
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+ @media only screen and (max-width: 600px) {
+    .abc{
+        height: 60px;
+        width: 110px;
+        padding: 1px;
+    }
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+    .menus{
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        left: 400px;
+        top: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold; 
+    }
+    .text-decoration{
+        text-decoration: none;
+        padding: 6px;
+        color: white;
+    }
+    .text {
+        font-size: 60px
+    }
+    .dot{
+        height: 10px;
+        width: 10px;
+    }
+    .second-novbar{
+        height: 120px;
+        background-color:rgb(245, 250, 254);
+    }
+    .form-1{
+        font-size: 15px;
+        padding-left: 15px;
+        padding-top: 30px;
+        display: flex;
+        gap: 20px;
+    }
+    .drop-down{
+        height: 30px;
+        width: 100px;
+        cursor: pointer;
+    }
+    .btn{
+        height: 31px;
+        width: 100px;
+        margin-top: 19px;
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 12px;
+        color: white;
+        background-color: tomato;
+    }
+    .btn:hover{
+        background-color:rgb(241, 170, 158) ;
+        color: black;
+        height: 30px;
+        width: 99px;
+        border-radius: 2px;
+    }
+    .attraction-div{
+        margin-top: 40px;
+    }
+    .attraction-title{
+        text-align: center;
+        color: tomato;
+        font-size: 50px;
+        font-family:cursive;
+    }
+    .img-card{
+        height: 600px;
+        width: 400px;
+    }
+    .img1{
+        height: 500px;
+        width: 450px;
+        border-radius: 10px;
+    }
+    .img1:hover{
+        width: 447px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .img-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .img-text{
+        color: tomato;
+        font-family: cursive;
+        text-align: center; 
+    }
+    .img-text:hover{
+        cursor: pointer;
+    }
+    .btn-div{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .btn-2{
+        height: 30px;
+        width: 100px;
+        font-size: 12px;
+        border-radius: 50px;
+        background-color: tomato;
+        color: white;
+        cursor: pointer;
+    }
+    .btn-2:hover{
+        height: 29px;
+        width: 99px;
+        background-color:rgb(241, 170, 158) ;
+        color: black;
+        font-size: 12px;
+        
+    }
+    .form-div{
+        text-align: center;
+        color: tomato;
+        font-family: cursive;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    
+    .forms{
+      margin-left: 0px;
+      text-align: center;
+      
+    }
+    .form-names{
+        height: 35px;
+        width: 130px;
+        font-size: 12px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    .form-name1{
+        height: 35px;
+        width: 130px;
+        font-size: 12px;
+        border-radius: 50px;
+        background-color: tomato;
+        color: white;
+        cursor: pointer;
+    }
+    .form-name1:hover{
+        background-color:rgb(241, 170, 158) ;
+        width: 118px;
+        color: black;
+    }
+    .footer{
+        margin-top: 90px;
+        height: 800px;
+        width: 100%;
+        background-color: #717171;
+    }
+    .footer-about-us{
+        height: 220px;
+        width: 350px;
+        color: white;
+    }
+    .about-us{
+        padding-top: 10px;
+        color: white;
+    }
+    .about-us-text{
+        font-size: 15px;
+    }
+    .footer-nvigation{
+        height: 250px;
+        width: 340px;
+        padding-top: 0px;
+        color: white;
+    }
+    .navigation-pages{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .footer-connect{
+        height: 300px;
+        width: 350px;
+        padding-top: 0px;
+        color: white;
+    }
+    .location{
+        height: 20px;
+        width: 20px;
+    }
+    .location-address{
+        color: white;
+        text-decoration: none;
+    }
+    .mail{
+        height: 20px;
+        width: 20px;
+    }
+    .mail-address{
+        color: white;
+        text-decoration: none;
+    }
+    .contact{
+        height: 20px;
+        width: 20px;
+    }
+    .contact-address{
+        color: white;
+        text-decoration: none;
+    }
+    .facebook{
+        height: 35px;
+        width: 35px;
+        cursor: pointer;
+    }
+    .footer-last{
+        height: 30px;
+        width: 100%;
+        background-color: black;
+    }
+    .last-footer-text{
+        color: white;
+        font-size: 12px;
+        padding-left: 10px;
+    }
 }
