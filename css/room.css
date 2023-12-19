@@ -265,6 +265,15 @@ color: black;
   .text-decoration:hover{
       font-size: 29px;
   }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 1px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
   
   /* Caption text */
   .text {
@@ -355,4 +364,37 @@ color: black;
         padding-left: 10px;
     }
 
+
+    .abc{
+        height: 60px;
+        width: 110px;
+        padding: 1px;
+    }
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+    .menus{
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        left: 400px;
+        top: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold; 
+    }
+    .text-decoration{
+        text-decoration: none;
+        padding: 6px;
+        color: white;
+    }
+    .text {
+        font-size: 60px
+    }
+    .dot{
+        height: 10px;
+        width: 10px;
+    }
 }
