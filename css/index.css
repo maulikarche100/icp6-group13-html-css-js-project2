@@ -5,7 +5,7 @@ body {font-family: Verdana, sans-serif;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
-.slideshow-container {
+ .slideshow-container {
   max-width: 100%;
   position: relative;
   margin: auto;
