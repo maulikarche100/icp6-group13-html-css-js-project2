@@ -275,7 +275,7 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 600px) {
     .abc{
-        height: 80px;
+        height: 60px;
         width: 110px;
         padding: 1px;
     }
@@ -290,14 +290,13 @@ img {vertical-align: middle;}
         flex-direction: column;
         justify-content: space-evenly;
         left: 400px;
-        top: 40px;
-        font-size: 15px;
+        top: 30px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: bold; 
     }
     .text-decoration{
         text-decoration: none;
-        padding: 15px;
+        padding: 6px;
         color: white;
     }
     .text {
