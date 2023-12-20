@@ -5,7 +5,7 @@ body {font-family: Verdana, sans-serif;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
-.slideshow-container {
+ .slideshow-container {
   max-width: 100%;
   position: relative;
   margin: auto;
@@ -273,7 +273,7 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
     .abc{
         height: 60px;
         width: 110px;

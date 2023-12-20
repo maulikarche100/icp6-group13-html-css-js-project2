@@ -1,9 +1,9 @@
 alert('Welcome to Hotel TAJ');
 
-let slideIndex = 0;
+ let slideIndex = 0;
 showSlides();
 
-function showSlides() {
+ function showSlides() {
     let i;
     let slides = document.getElementsByClassName("mySlides");
     let dots = document.getElementsByClassName("dot");

@@ -1,28 +1,13 @@
 
+function signin() {
+var email = document.getElementById('email').value;
+var password = document.getElementById('password').value;
 
-  
-        // This is a simple JavaScript code block
-        // It displays a message in the browser console
-        console.log("Hello from JavaScript!");
 
-        // Variables
-        let greeting = "Welcome to JavaScript!";
-        alert(greeting);
+if (email === 'email@' && password === 'password') {
+alert('Login successful!');
 
-        // Functions
-        function sayHello(name) {
-            alert("Hello, " + name + "!");
-        }
-
-        // Call the function
-        sayHello("John");
-
-        // Conditional statement
-        let number = 10;
-        if (number > 5) {
-            console.log("The number is greater than 5");
-        } else {
-            console.log("The number is not greater than 5");
-        }
-    
-
+} else {
+alert('Invalid username or password. Please try again.');
+}
+}
