@@ -70,7 +70,7 @@ section {
     width: 100%;
     height: 100%;
     padding: 2em  1.5em;
-    background: linear-gradient(#ffffff 50%, #2c7bf2 50%);
+    background: linear-gradient(#ffffff 50%, tomato 50%);
     background-size: 100% 200%;
     background-position: 0 2.5%;
     border-radius:5 px;
@@ -83,7 +83,7 @@ section {
 h3 {
     font-size: 20px;
     font-weight: 600;
-    color: #1f194c;
+    color:tomato;
     margin: 1em 0;
 }
 
@@ -97,7 +97,7 @@ p {
 
 
 .icon-wrapper{
-    background-color: #2c7bf2;
+    background-color:tomato;
     position:relative;
     margin: auto;
     font-size: 30px;
@@ -114,9 +114,10 @@ p {
 
 .section-heading{
     font-size: 40px;
-    color: #2108dd;
-    margin-top: 0;
+    color:tomato;
+    margin-top: 0%;
     padding: 40px;
+    margin: 0%;
 }
 
 .card:hover {
@@ -137,7 +138,7 @@ p {
 }
 
 .container {
-    background-color: #2c7bf2;
+    background-color:tomato;
     margin: 10px;
     padding: 130px;
     margin-left:  0 auto;
@@ -281,7 +282,7 @@ p {
     margin: 1.2rem auto 5px;
     width: 100px;
     height: 6px;
-    background-color: #9B51E0;
+    background-color: tomato;
   }
   
   /*end of styling facilities head*/
@@ -300,7 +301,7 @@ p {
   }
   
   .gridsty__img img {
-    max-width: 100%;
+    max-width: 70%;
     display: block;
     height: auto;
     margin: 0 auto;
@@ -323,12 +324,12 @@ p {
     width: 30%;
     height: 40px;
     background-color: #fff;
-    border: 1px solid #9B51E0;
+    border: 1px solid black;
   }
   
   input[type="submit"]:hover {
     color: #ffffff;
-    background-color: #9B51E0;
+    background-color:tomato;
   }
   
   /*end of styling for tablet screen size*/
