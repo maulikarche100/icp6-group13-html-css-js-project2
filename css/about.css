@@ -205,19 +205,18 @@ body{
 
 
 @media only screen and (max-width: 600px){
-    .navbar-menu-container{
-        margin-left: auto;
-        margin-right: auto;
+    .abc{
+        height: 70px;
+        width: 100px;
     }
-
-    .navbar{
-        flex-direction: column;
+    .text-decoration{
+        font-size: 20px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
     }
-    .navbar-menu{
-        display: block;
-        margin: 10px;
-        width: 80%;
-        text-align: center;
+    .text{
+        font-size: 50px;
     }
     .about-page-heading{
         font-size: 30px;
@@ -296,20 +295,7 @@ body{
     }
 }
 @media only screen and (min-width: 601px) and (max-width: 800px){
-    .navbar-brand{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .navbar-menu-container{
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .navbar-menu{
-        margin: 10px;
-    }
+    
     .taj-hotel-img1{
         height: 250px;
         width: 250px;
@@ -365,14 +351,5 @@ body{
     }
 }
 @media only screen and (min-width: 801px) and (max-width: 1400px){
-    .navbar-menu-container{
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .navbar-menu{
-        margin: 10px;
-    }
+    
 }
