@@ -338,6 +338,34 @@ body{
         height: 50px;
         width: 50px;
     }
+    .footer{
+        margin-top: 90px;
+        height: 800px;
+    }
+    .footer-about-us{
+        height: 220px;
+        width: 350px;
+    }
+    .about-us{
+        padding-top: 10px;
+    }
+    .about-us-text{
+        font-size: 15px;
+    }
+    .footer-nvigation{
+        height: 250px;
+        width: 350px;
+        padding-top: 0px;
+    }
+    .footer-connect{
+        height: 300px;
+        width: 350px;
+        padding-top: 0px;
+    }
+    .last-footer-text{
+        font-size: 15px;
+        padding-top: 6px;
+    }
 }
 @media only screen and (min-width: 801px) and (max-width: 1400px){
     .navbar-menu-container{
