@@ -1,5 +1,5 @@
 // for number of guest 
-
+/*
 const guestElement = document.getElementById("guestNumber");
 
 function increNumber() {
@@ -30,7 +30,7 @@ function decrNumber() {
 }
 
 // for guest end here
-
+*/
 
 // for confirm button
 
