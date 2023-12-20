@@ -1,42 +1,39 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #ffe6cc;
+    background-color: #fff;
 }
-.navbar{
-    background-color: #000;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+.abc{
+    height: 100px;
+    width: 120px;
+    padding: 20px;
+    position:absolute;
 }
-
-.navbar-icon{
-    height: 50px;
-}
-
-.navbar-menu{
-    font-size: 20px;
+.menus{
+    position: absolute;
+    left: 250px;
+    top: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    margin-left: 45px;
-    cursor: pointer;
-    background-color: #ffe6cc;
-    padding: 5px 20px;
-    border-radius: 20px;
+}
+.text-decoration{
     text-decoration: none;
+    padding: 25px;
+    color: white;
+    font-size: 25px;
 }
-
-.navbar-menu:hover{
-    background-color: #ffcc00;
-    box-shadow: 0 0 5px 2px #fff;
-    padding: 7px 22px;
-    transition: 0.5s;
+.text-decoration:hover{
+    font-size: 29px;
 }
-
-.navbar-menu-container{
-    margin-left: 200px;
+.text {
+    color: azure;
+    font-size: 90px;
+    font-family: serif;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
-
 
 .intro{
     display: flex;
@@ -48,6 +45,7 @@ body{
     font-size: 40px;
     margin: 50px 0;
     color: tomato;
+    font-family: cursive;
 }
 
 .about-page-description{
@@ -94,6 +92,7 @@ body{
 }
 
 .main-image-container{
+    background-color: #f4f4f4;
     border: 1px solid black;
     margin-left: 28%;
     margin-right: 28%;
@@ -199,26 +198,25 @@ body{
 .last-footer-text{
     color: white;
     font-size: 15px;
-    padding-left: 10px;
+    padding-top: 6px;
     display: block;
     text-align: center;
 }
 
 
 @media only screen and (max-width: 600px){
-    .navbar-menu-container{
-        margin-left: auto;
-        margin-right: auto;
+    .abc{
+        height: 70px;
+        width: 100px;
     }
-
-    .navbar{
-        flex-direction: column;
+    .text-decoration{
+        font-size: 20px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
     }
-    .navbar-menu{
-        display: block;
-        margin: 10px;
-        width: 80%;
-        text-align: center;
+    .text{
+        font-size: 50px;
     }
     .about-page-heading{
         font-size: 30px;
@@ -267,21 +265,38 @@ body{
         display: flex;
         flex-wrap: wrap;
     }
+    .footer{
+        margin-top: 90px;
+        height: 800px;
+    }
+    .footer-about-us{
+        height: 220px;
+        width: 350px;
+    }
+    .about-us{
+        padding-top: 10px;
+    }
+    .about-us-text{
+        font-size: 15px;
+    }
+    .footer-nvigation{
+        height: 250px;
+        width: 340px;
+        padding-top: 0px;
+    }
+    .footer-connect{
+        height: 300px;
+        width: 350px;
+        padding-top: 0px;
+    }
+    .last-footer-text{
+        font-size: 12px;
+        padding-top: 7px;
+    }
 }
 @media only screen and (min-width: 601px) and (max-width: 800px){
-    .navbar-brand{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .navbar-menu-container{
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .navbar-menu{
-        margin: 10px;
+    .text{
+        font-size: 50px;
     }
     .taj-hotel-img1{
         height: 250px;
@@ -308,16 +323,35 @@ body{
         height: 50px;
         width: 50px;
     }
+    .footer{
+        margin-top: 90px;
+        height: 800px;
+    }
+    .footer-about-us{
+        height: 220px;
+        width: 350px;
+    }
+    .about-us{
+        padding-top: 10px;
+    }
+    .about-us-text{
+        font-size: 15px;
+    }
+    .footer-nvigation{
+        height: 250px;
+        width: 350px;
+        padding-top: 0px;
+    }
+    .footer-connect{
+        height: 300px;
+        width: 350px;
+        padding-top: 0px;
+    }
+    .last-footer-text{
+        font-size: 15px;
+        padding-top: 6px;
+    }
 }
 @media only screen and (min-width: 801px) and (max-width: 1400px){
-    .navbar-menu-container{
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .navbar-menu{
-        margin: 10px;
-    }
+    
 }

@@ -1,9 +1,8 @@
 body {
 
-    background-image:url('../images/tajhotel login page.jpg');
+    background-image: url('../images/tajhotel login page.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 .navbar {
@@ -70,67 +69,99 @@ body {
 .loginheading {
     margin-left: 20px;
     font-size: 40px;
+    position: relative;
+    bottom: 10px;
+    left: 100px;
 }
 
-.emailname {
-    margin-top: 50px;
-    margin-left: 40px;
-    font-size: 23px;
+.name {
+    display: flex;
+}
+
+.first {
     position: relative;
-    bottom: 15px;
+    left: 16px;
+    bottom: 35px;
+    font-size: 18px;
+}
+
+.Last {
+    position: relative;
+    left: 40px;
+    bottom: 35px;
+    font-size: 18px;
+}
+
+.firstbox {
+    position: relative;
+    left: 15px;
+    bottom: 40px;
+    height: 22px;
+    width: 160px;
+    box-shadow: 2px 2px 2px 2px goldenrod;
+}
+
+.firstbox:hover {
+    transform: scale(1.10);
+
+}
+
+.lastbox {
+    position: relative;
+    left: 39px;
+    bottom: 40px;
+    height: 22px;
+    width: 160px;
+    box-shadow: 2px 2px 2px 2px goldenrod;
+}
+
+.lastbox:hover {
+    transform: scale(1.10);
+}
+
+.email {
+    position: relative;
+    bottom: 45px;
+    left: 18px;
 }
 
 .emailbox {
-    margin-left: 40px;
-    height: 30px;
-    width: 280px;
+    height: 22px;
+    width: 348px;
     box-shadow: 2px 2px 2px 2px goldenrod;
     position: relative;
-    bottom: 25px;
+    bottom: 53px;
+    left: 18px;
 }
 
 .emailbox:hover {
     transform: scale(1.10);
 }
 
-.passwordname {
-    margin-top: 50px;
-    margin-left: 40px;
-    font-size: 23px;
+.password {
     position: relative;
     bottom: 55px;
+    left: 18px;
 }
 
 .Passwordbox {
-    margin-left: 40px;
-    height: 30px;
-    width: 280px;
+    height: 22px;
+    width: 348px;
     box-shadow: 2px 2px 2px 2px goldenrod;
     position: relative;
-    bottom: 65px;
+    bottom: 63px;
+    left: 18px;
 }
 
 .Passwordbox:hover {
     transform: scale(1.10);
 }
 
-.forgotpassword {
-    position: relative;
-    bottom: 69px;
-    left: 236px;
-    font-size: 13px;
-    cursor: pointer;
-}
-
-.forgotpassword:hover {
-    transform: scale(1.10);
-}
-
-.signin {
+.signup {
     background-color: goldenrod;
     color: white;
     position: relative;
-    bottom: 55px;
+    bottom: 50px;
     left: 130px;
     font-size: 18px;
     padding: 10px;
@@ -139,24 +170,22 @@ body {
     border: double 5px white;
     border-radius: 10px 0 10px 0;
     box-shadow: 1px 1px 1px 1px goldenrod;
-
-}
-
-.signin:hover {
-    transform: scale(1.10);
-}
-
-.signup {
-    position: relative;
-    bottom: 24px;
-    left: 200px;
-    cursor: pointer;
-    font-size: 16px;
 }
 
 .signup:hover {
     transform: scale(1.10);
+}
 
+.already {
+    position: relative;
+    bottom: 58px;
+    left: 210px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.already:hover {
+    transform: scale(1.10);
 }
 .footer{
     display: flex;
@@ -227,7 +256,6 @@ body {
     width: 35px;
     cursor: pointer;
 }
-
 @media (max-width:600px) {
     .brandlogo {
         height: 120px;
@@ -259,59 +287,54 @@ body {
         right: 610px;
         bottom: 65px;
         height: 500px;
-        width: 990px;
+        width: 1100px;
         background-color: white;
         box-shadow: 3px 3px 5px 5px goldenrod;
         position: relative;
     }
 
-    .forgotpassword {
+    .firstbox {
         position: relative;
-        bottom: 69px;
-        left: 200px;
-        font-size: 13px;
-        cursor: pointer;
+        left: 15px;
+        bottom: 40px;
+        height: 22px;
+        width: 110px;
+        box-shadow: 2px 2px 2px 2px goldenrod;
     }
 
-    .signup {
+    .lastbox {
         position: relative;
-        bottom: 24px;
-        left: 120px;
+        left: 39px;
+        bottom: 40px;
+        height: 22px;
+        width: 110px;
+        box-shadow: 2px 2px 2px 2px goldenrod;
+    }
+
+    .emailbox {
+        height: 22px;
+        width: 320px;
+        box-shadow: 2px 2px 2px 2px goldenrod;
+        position: relative;
+        bottom: 53px;
+        left: 18px;
+    }
+
+    .Passwordbox {
+        height: 22px;
+        width: 300px;
+        box-shadow: 2px 2px 2px 2px goldenrod;
+        position: relative;
+        bottom: 63px;
+        left: 18px;
+    }
+
+    .already {
+        position: relative;
+        bottom: 58px;
+        left: 139px;
         cursor: pointer;
         font-size: 16px;
     }
 
-    .emailname {
-        margin-top: 50px;
-        margin-left: 20px;
-        font-size: 23px;
-        position: relative;
-        bottom: 15px;
-    }
-
-    .emailbox {
-        margin-left: 20px;
-        height: 30px;
-        width: 280px;
-        box-shadow: 2px 2px 2px 2px goldenrod;
-        position: relative;
-        bottom: 25px;
-    }
-
-    .passwordname {
-        margin-top: 50px;
-        margin-left: 20px;
-        font-size: 23px;
-        position: relative;
-        bottom: 55px;
-    }
-
-    .Passwordbox {
-        margin-left: 20px;
-        height: 30px;
-        width: 280px;
-        box-shadow: 2px 2px 2px 2px goldenrod;
-        position: relative;
-        bottom: 65px;
-    }
 }

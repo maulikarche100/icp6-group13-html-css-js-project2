@@ -1,28 +1,21 @@
+function changeImage(num){
+    const mainImage = document.getElementById('main-hotel-image')
 
-
-  
-        // This is a simple JavaScript code block
-        // It displays a message in the browser console
-        console.log("Hello from JavaScript!");
-
-        // Variables
-        let greeting = "Welcome to JavaScript!";
-        alert(greeting);
-
-        // Functions
-        function sayHello(name) {
-            alert("Hello, " + name + "!");
-        }
-
-        // Call the function
-        sayHello("John");
-
-        // Conditional statement
-        let number = 10;
-        if (number > 5) {
-            console.log("The number is greater than 5");
-        } else {
-            console.log("The number is not greater than 5");
-        }
-    
-
+    if(num==1){
+        mainImage.src = "../images/1.jpg";
+    }else if(num==2){
+        mainImage.src = "../images/2.jpg";
+    }else if(num==3){
+        mainImage.src = "../images/3.webp";
+    }else if(num==4){
+        mainImage.src = "../images/4.jpg";
+    }else if(num==5){
+        mainImage.src = "../images/5.jpg";
+    }else if(num==6){
+        mainImage.src = "../images/6.jpg";
+    }else if(num==7){
+        mainImage.src = "../images/7.jpg";
+    }else if(num==8){
+        mainImage.src = "../images/8.jpeg";
+    }
+}
