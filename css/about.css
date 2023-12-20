@@ -198,7 +198,7 @@ body{
 .last-footer-text{
     color: white;
     font-size: 15px;
-    padding-left: 10px;
+    padding-top: 6px;
     display: block;
     text-align: center;
 }
@@ -295,7 +295,9 @@ body{
     }
 }
 @media only screen and (min-width: 601px) and (max-width: 800px){
-    
+    .text{
+        font-size: 50px;
+    }
     .taj-hotel-img1{
         height: 250px;
         width: 250px;
