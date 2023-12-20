@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #ffe6cc;
+    background-color: #fff;
 }
 .navbar{
     background-color: #000;
@@ -20,7 +20,7 @@ body{
     font-weight: bold;
     margin-left: 45px;
     cursor: pointer;
-    background-color: #ffe6cc;
+    background-color: #f4f4f4;
     padding: 5px 20px;
     border-radius: 20px;
     text-decoration: none;
@@ -48,6 +48,7 @@ body{
     font-size: 40px;
     margin: 50px 0;
     color: tomato;
+    font-family: cursive;
 }
 
 .about-page-description{
@@ -94,6 +95,7 @@ body{
 }
 
 .main-image-container{
+    background-color: #f4f4f4;
     border: 1px solid black;
     margin-left: 28%;
     margin-right: 28%;
