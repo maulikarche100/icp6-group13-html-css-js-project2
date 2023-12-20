@@ -269,6 +269,34 @@ body{
         display: flex;
         flex-wrap: wrap;
     }
+    .footer{
+        margin-top: 90px;
+        height: 800px;
+    }
+    .footer-about-us{
+        height: 220px;
+        width: 350px;
+    }
+    .about-us{
+        padding-top: 10px;
+    }
+    .about-us-text{
+        font-size: 15px;
+    }
+    .footer-nvigation{
+        height: 250px;
+        width: 340px;
+        padding-top: 0px;
+    }
+    .footer-connect{
+        height: 300px;
+        width: 350px;
+        padding-top: 0px;
+    }
+    .last-footer-text{
+        font-size: 12px;
+        padding-top: 7px;
+    }
 }
 @media only screen and (min-width: 601px) and (max-width: 800px){
     .navbar-brand{
