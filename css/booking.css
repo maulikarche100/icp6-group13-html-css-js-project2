@@ -39,12 +39,29 @@ body {
 
 /* Nav Bar End */
 
+.middlePart {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
 .infoContainer {
-    max-width: 800px;
-    margin: 40px;
+    width: 60%; /* Adjust the width of the form container */
     padding: 20px;
     border: 2px solid black;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card {
+    width: 90%; /* Adjust the width of each card */
+    margin: 0 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -77,6 +94,9 @@ select {
     margin-bottom: 10px;
 }
 
+.labelDeco {
+    font-weight: bold;
+}
 
 /* for guest number */
 .numberIcons {
@@ -100,8 +120,67 @@ select {
 .for_numGuest {
     display: inline-block;
     vertical-align: middle;
+    font-weight: bold;
 }
 
+.btnConfirm {
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btnConfirm:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+
+.card {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.roomName{
+    font-weight: bold;
+}
+
+.bookNow{
+    position: relative;
+    left: 95px;
+    padding: 5px 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.bookNow:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.seeMore{
+    position: relative;
+    right: -20px;
+}
 /* end guest number */
 
 

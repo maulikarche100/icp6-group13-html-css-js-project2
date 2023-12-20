@@ -32,53 +32,97 @@
 
     </div>
 
+    <div class="middlePart">
+        <div class="infoContainer">
 
-    <div class="infoContainer">
+            <h4> Guest Information </h4>
 
-        <h2> Guest Information </h2> <br>
+            <form id="guestInformationForm">
 
-        <form id="guestInformationForm">
+                <label for="name" class="labelDeco"> Name </label> &nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="First Name" id="fname" name="name" required> &nbsp;&nbsp;
+                <input type="text" placeholder="Last Name" id="lname" name="name" required> <br><br>
 
-            <label for="name"> Name </label> &nbsp;&nbsp;&nbsp;
-            <input type="text" placeholder="First Name" id="fname" name="name" required> &nbsp;&nbsp;
-            <input type="text" placeholder="Last Name" id="lname" name="name" required> <br><br>
+                <label for="email" class="labelDeco"> E-mail </label> &nbsp;&nbsp;&nbsp;
+                <input type="email" placeholder="ex.abc@gmail.com" id="email" name="email" required> <br><br>
 
-            <label for="email"> E-mail </label> &nbsp;&nbsp;&nbsp;
-            <input type="email" placeholder="ex.abc@gmail.com" id="email" name="email" required> <br><br>
+                <label for="phone" class="labelDeco"> Contact No </label> &nbsp;&nbsp;&nbsp;
+                <input type="tel" placeholder="Phone Number" id="phone" name="phone" required> <br><br>
 
-            <label for="phone"> Contact No </label> &nbsp;&nbsp;&nbsp;
-            <input type="tel" placeholder="Phone Number" id="phone" name="phone" required> <br><br>
+                <label class="labelDeco"> Your Aadhar Card </label> &nbsp;&nbsp;&nbsp;
+                <input type="file" multiple accept="apllication/*"> <br><br>
 
-            <label for="checkIn"> Check-In Date And Time </label> &nbsp;&nbsp;&nbsp;
-            <input type="date" id="checkinDate" name="checkinDate" required> &nbsp;&nbsp;&nbsp;
-            <input type="time" id="checkinTime" name="checkinTime" required> <br><br>
+                <label for="checkIn" class="labelDeco"> Check-In Date And Time </label> &nbsp;&nbsp;&nbsp;
+                <input type="date" id="checkinDate" name="checkinDate" required> <br><br>
 
-            <label for="checkOut"> Check-Out Date And Time </label> &nbsp;&nbsp;&nbsp;
-            <input type="date" id="checkoutDate" name="checkoutDate" required> &nbsp;&nbsp;&nbsp;
-            <input type="time" id="checkoutTime" name="checkoutTime" required> 
+                <label for="checkOut" class="labelDeco"> Check-Out Date And Time </label> &nbsp;&nbsp;&nbsp;
+                <input type="date" id="checkoutDate" name="checkoutDate" required> <br>
 
-            <div class="container">
-                <label for="numberGuest" class="increDecre_Guest">Number Of Guest</label>
-                <span class="for_numGuest">
-                    <img src="./../images/minus.png" onclick="incrment2()" class="numberIcons" />
-                    <span class="guestValue" id="element2">1</span>
-                    <img src="./../images/plus.png" onclick="derment2()" class="numberIcons" />
-                </span>
+                <span class="container">
+                    <label for="numberGuest" class="increDecre_Guest" class="labelDeco"> Number Of Guest </label>
+                    <span class="for_numGuest">
+                        <img src="./../images/minus.png" onclick="decrNumber()" class="numberIcons" />
+                        <span class="guestValue" id="guestNumber"> 1 </span>
+                        <img src="./../images/plus.png" onclick="increNumber()" class="numberIcons" />
+                    </span>
+                </span> <br>
+
+                <label class="labelDeco"> Bed Type </label> &nbsp;&nbsp;&nbsp;
+                <select>
+                    <option> Single Bed </option>
+                    <option> Twin Bed </option>
+                    <option> Queen Bed </option>
+                </select>
+
+                <h4> Payment Details </h5>
+
+                    <label for="cardNumber" class="labelDeco"> Card Number </label> &nbsp;&nbsp;&nbsp;
+                    <input type="text" id="cardNumber" name="cardNumber" placeholder="1111 2222 3333 4444" required>
+                    <br><br>
+
+                    <label for="expiryDate" class="labelDeco"> Expiry Date </label> &nbsp;&nbsp;&nbsp;
+                    <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required> <br><br>
+
+                    <label for="cvv" class="labelDeco"> CVV </label> &nbsp;&nbsp;&nbsp;
+                    <input type="text" id="cvv" name="cvv" placeholder="123" required> <br> <br>
+
+                    <h4> Terms and Conditions </h5>
+
+                        <input type="checkbox" id="termsCheckbox" name="termsCheckbox" required>
+                        <label for="termsCheckbox"> I have read and agree to the <a href=""> terms and conditions </a>
+                        </label> <br><br> <br>
+
+                        <button type="button" class="btnConfirm" onclick="confirmBooking()"> Confirm Booking </button>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="button" class="btnConfirm" > Print Recipt </button>
+
+            </form>
+        </div>
+
+        <div>
+
+            <div class="card">
+                <img src="../images/card-1-img-js5.jpg" alt="Card Image">
+                <span class="roomName"> Single Room </span> 
+                <button class="bookNow"> Book Now </button>
             </div>
 
-            Bed Type &nbsp;&nbsp;&nbsp;
-            <select>
-                <option> Single Bed </option>
-                <option> Twin Bed </option>
-                <option> Queen Bed </option>
-            </select> <br><br>
+            <div class="card">
+                <img src="../images/card-1-img.jpg" alt="Card Image">
+                <span class="roomName"> Deluxe Room </span>
+                <button class="bookNow"> Book Now </button>
+            </div>
 
-            Upload Your Aadhar Card &nbsp;&nbsp;&nbsp;
-            <input type="file" multiple accept="apllication/*"> <br><br>
+            <div class="card">
+                <img src="../images/card-2-img1.webp" alt="Card Image">
+                <span class="roomName"> Single Room </span>
+                <button class="bookNow"> Book Now </button>
+            </div>
 
-        </form>
+            <h3 class="seeMore"> <a href="../pages/room.html"> See more ....</a> </h3>
+        </div>
+
     </div>
-
 
     <div class="footer">
 
