@@ -47,7 +47,8 @@ body {
 }
 
 .infoContainer {
-    width: 60%; /* Adjust the width of the form container */
+    width: 60%;
+    /* Adjust the width of the form container */
     padding: 20px;
     border: 2px solid black;
     border-radius: 8px;
@@ -56,7 +57,8 @@ body {
 }
 
 .card {
-    width: 90%; /* Adjust the width of each card */
+    width: 90%;
+    /* Adjust the width of each card */
     margin: 0 10px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -98,7 +100,7 @@ select {
     font-weight: bold;
 }
 
-/* for guest number */
+/* for guest number 
 .numberIcons {
     height: 25px;
     margin: 25px;
@@ -122,18 +124,27 @@ select {
     vertical-align: middle;
     font-weight: bold;
 }
+*/
+
 
 .btnConfirm {
-    padding: 10px 30px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    border-radius: 3px;
     cursor: pointer;
-    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: tomato;
+    position: relative;
+    left: 200px;
 }
 
 .btnConfirm:hover {
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
+    background-color:rgb(241, 170, 158) ;
+    height: 37px;
+    width: 149px;
+    border-radius: 4px;
 }
 
 
@@ -160,27 +171,31 @@ select {
     margin-bottom: 10px;
 }
 
-.roomName{
+.roomName {
     font-weight: bold;
 }
 
-.bookNow{
+.bookNow {
     position: relative;
     left: 95px;
     padding: 5px 20px;
     font-weight: bold;
-    color: black;
-}
-
-.bookNow:hover{
-    background-color: #000000;
+    border-radius: 3px;
+    cursor: pointer;
     color: white;
+    background-color: tomato;
 }
 
-.seeMore{
+.bookNow:hover {
+    background-color:rgb(241, 170, 158) ;
+    border-radius: 4px;
+}
+
+.seeMore {
     position: relative;
     right: -20px;
 }
+
 /* end guest number */
 
 
@@ -242,14 +257,14 @@ select {
 
 .footerLast {
     width: 100%;
-    padding: 30px;
 }
 
 .copyRight {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
     display: block;
-    text-align: center;
+    background-color: black;
+    padding: 10px;
 }
 
 /* Footer CSS End */
