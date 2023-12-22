@@ -3,6 +3,8 @@ body {
     background-image:url('../images/new.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
     
 }
 
@@ -30,7 +32,8 @@ body {
 .homebutton {
     color: white;
     position: relative;
-    left: 50px;
+    left: 80px;
+    font-size: 22px;
 
 
 }
@@ -144,6 +147,7 @@ body {
 
 .signin:hover {
     transform: scale(1.10);
+    background-color: tomato;
 }
 
 .signup {
@@ -165,15 +169,15 @@ body {
     margin-top: 100px;
     height: 420px;
     width: 100%;
-    background-color: goldenrod;
-    margin-bottom: 0;
-   
+    background-color: #717171;
+    margin-left: 0;
+    margin-right: 0;
+}
 .footer-about-us{
    margin-left: 10px;
     height: 350px;
     width: 350px;
     color: white;
-    border: 2px solid goldenrod;
 }
 .about-us{
     padding-top: 60px;
@@ -181,11 +185,9 @@ body {
 }
 .footer-nvigation{
     height: 300px;
-    width: 400px;
+    width: 300px;
     padding-top: 60px;
     color: white;
-    border: 2px solid goldenrod;
-
 }
 .navigation-pages{
     text-decoration: none;
@@ -193,11 +195,10 @@ body {
     font-size: 15px;
 }
 .footer-connect{
-    height: 300px;
+    height: 380px;
     width: 400px;
     padding-top: 60px;
     color: white;
-    border: 2px solid goldenrod;
 }
 .location{
     height: 25px;
@@ -228,8 +229,18 @@ body {
     width: 35px;
     cursor: pointer;
 }
+.footer-last{
+    height: 30px;
+    width: 100%;
+    background-color: black;
 }
-
+.last-footer-text{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    display: block;
+    text-align: center;
+}
 @media (max-width:600px) {
     .brandlogo {
         height: 120px;
