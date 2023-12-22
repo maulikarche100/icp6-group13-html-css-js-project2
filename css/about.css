@@ -25,13 +25,12 @@ body{
       text-decoration: none;
       padding: 25px;
       color: white;
-      font-size: 30px;
+      font-size: 28px;
   }
   .text-decoration:hover{
       font-size: 29px;
   }
   
-  /* Caption text */
   .text {
     color: azure;
     font-size: 110px;
@@ -42,7 +41,7 @@ body{
     width: 100%;
     text-align: center;
   }
-  /* The dots/bullets/indicators */
+
   .dot {
     height: 15px;
     width: 15px;
