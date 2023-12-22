@@ -1,5 +1,4 @@
-// for number of guest 
-/*
+
 const guestElement = document.getElementById("guestNumber");
 
 function increNumber() {
@@ -29,8 +28,7 @@ function decrNumber() {
 
 }
 
-// for guest end here
-*/
+
 
 // for confirm button
 
@@ -41,10 +39,12 @@ function confirmBooking() {
     if (isConfirmed) {
         const firstName = document.getElementById("fname").value;
         const lastName = document.getElementById("lname").value;
-        const numberOfGuests = parseInt(document.getElementById("guestNumber").innerText);
+        const cinDate = document.getElementById("checkinDate").value;
+        const coutDate = document.getElementById("checkoutDate").value;
 
-        alert(`Booking Confirmed!\nName: ${firstName} ${lastName} \nNumber of Guests: ${numberOfGuests}`);
+        alert(`Booking Confirmed!\nName: ${firstName} ${lastName} \nCheck In Date: ${cinDate} \nCheck Out Date: ${coutDate}.`);
     }
 }
 
 // ende here
+

@@ -23,18 +23,16 @@ body {
 }
 
 .navbarMenue {
-    position: absolute;
-    left: 250px;
-    top: 80px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 
 .navbarOption {
     text-decoration: none;
-    padding: 25px;
     color: #000000;
+    position: relative;
+    left: 1250px;
 }
 
 /* Nav Bar End */
@@ -48,7 +46,6 @@ body {
 
 .infoContainer {
     width: 60%;
-    /* Adjust the width of the form container */
     padding: 20px;
     border: 2px solid black;
     border-radius: 8px;
@@ -58,13 +55,17 @@ body {
 
 .card {
     width: 90%;
-    /* Adjust the width of each card */
     margin: 0 10px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formHead{
+    font-size: 20px;
+    border-bottom: 2px solid black;
 }
 
 label {
@@ -100,7 +101,7 @@ select {
     font-weight: bold;
 }
 
-/* for guest number 
+/*for guest number */
 .numberIcons {
     height: 25px;
     margin: 25px;
@@ -124,7 +125,7 @@ select {
     vertical-align: middle;
     font-weight: bold;
 }
-*/
+
 
 
 .btnConfirm {
@@ -141,7 +142,7 @@ select {
 }
 
 .btnConfirm:hover {
-    background-color:rgb(241, 170, 158) ;
+    background-color: rgb(241, 170, 158);
     height: 37px;
     width: 149px;
     border-radius: 4px;
@@ -187,7 +188,7 @@ select {
 }
 
 .bookNow:hover {
-    background-color:rgb(241, 170, 158) ;
+    background-color: rgb(241, 170, 158);
     border-radius: 4px;
 }
 
@@ -196,7 +197,7 @@ select {
     right: -20px;
 }
 
-/* end guest number */
+/* end */
 
 
 /* Footer CSS Start */
@@ -268,3 +269,4 @@ select {
 }
 
 /* Footer CSS End */
+
