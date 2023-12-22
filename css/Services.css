@@ -123,11 +123,12 @@ p {
 }
 
 .section-heading{
-    font-size: 40px;
+    font-size: 60px;
     color:tomato;
     margin-top: 0%;
     padding: 40px;
     margin: 0%;
+
 }
 
 .card:hover {
@@ -220,7 +221,9 @@ p {
   .gridsty__text {
     font-size: 30px;
   }
-
+.head__h2 {
+  font-size: 50px ;
+}
 
   .footer{
     display: flex;
