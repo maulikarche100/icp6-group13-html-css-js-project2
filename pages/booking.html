@@ -20,14 +20,8 @@
             <img src="../images/logo--Taj.png" class="logoImg" />
         </div>
         <div class="navbarMenue">
-            <a href="D:\web_dev\group_project\pro_second\icp6-group13-html-css-js-project2\index.html"
-                class="navbarOption"> HOME </a>
-            <a href="./room.html" class="navbarOption"> ROOMS </a>
-            <a href="./Services.html" class="navbarOption"> OUR SERVICES </a>
-            <a href="./about.html" class="navbarOption"> ABOUT US </a>
-            <a href="./blog.html" class="navbarOption"> BLOG </a>
-            <a href="./help.html" class="navbarOption"> HELP </a>
-            <a href="./login.html" class="navbarOption"> LOGIN👨‍💼 </a>
+            <a href="D:\web_dev\group_project\pro_second\icp6-group13-html-css-js-project2\index.html" class="navbarOption"> HOME </a>
+
         </div>
 
     </div>
@@ -35,7 +29,7 @@
     <div class="middlePart">
         <div class="infoContainer">
 
-            <h4> Guest Information </h4>
+            <h4 class="formHead"> Guest Information </h4>
 
             <form id="guestInformationForm">
 
@@ -58,24 +52,23 @@
                 <label for="checkOut" class="labelDeco"> Check-Out Date And Time </label> &nbsp;&nbsp;&nbsp;
                 <input type="date" id="checkoutDate" name="checkoutDate" required> <br> <br>
 
-                <!-- 
-                <span class="container">
-                    <label for="numberGuest" class="increDecre_Guest" class="labelDeco"> Number Of Guest </label>
-                    <span class="for_numGuest">
-                        <img src="./../images/minus.png" onclick="decrNumber()" class="numberIcons" />
-                        <span class="guestValue" id="guestNumber"> 1 </span>
-                        <img src="./../images/plus.png" onclick="increNumber()" class="numberIcons" />
-                    </span>
-                </span> <br>  -->
-
                 <label class="labelDeco"> Bed Type </label> &nbsp;&nbsp;&nbsp;
                 <select>
                     <option> Single Bed </option>
                     <option> Twin Bed </option>
                     <option> Queen Bed </option>
-                </select>
+                </select> <br>
 
-                <h4> Payment Details </h5>
+                <span class="container">
+                    <label for="numberGuest" class="increDecre_Guest" class="labelDeco"> Number Of Bed (if single bed)</label>
+                    <span class="for_numGuest">
+                        <img src="./../images/minus.png" onclick="decrNumber()" class="numberIcons" />
+                        <span class="guestValue" id="guestNumber"> 1 </span>
+                        <img src="./../images/plus.png" onclick="increNumber()" class="numberIcons" />
+                    </span>
+                </span> <br> 
+
+                <h4 class="formHead"> Payment Details </h5>
 
                     <label for="cardNumber" class="labelDeco"> Card Number </label> &nbsp;&nbsp;&nbsp;
                     <input type="text" id="cardNumber" name="cardNumber" placeholder="1111 2222 3333 4444" required>
@@ -87,7 +80,7 @@
                     <label for="cvv" class="labelDeco"> CVV </label> &nbsp;&nbsp;&nbsp;
                     <input type="text" id="cvv" name="cvv" placeholder="123" required> <br> <br>
 
-                    <h4> Terms and Conditions </h5>
+                <h4 class="formHead"> Terms and Conditions </h5>
 
                         <input type="checkbox" id="termsCheckbox" name="termsCheckbox" required>
                         <label for="termsCheckbox"> I have read and agree to the <a href=""> terms and conditions </a>
@@ -95,7 +88,7 @@
 
                         <button type="button" class="btnConfirm" onclick="confirmBooking()"> Confirm Booking </button>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <button type="button" class="btnConfirm"    > Print Recipt </button>
+                        <button type="button" class="btnConfirm"> Print Recipt </button>
 
             </form>
         </div>
@@ -104,7 +97,7 @@
 
             <div class="card">
                 <img src="../images/card-1-img-js5.jpg" alt="Card Image">
-                <span class="roomName"> Single Room </span> 
+                <span class="roomName"> Single Room </span>
                 <button class="bookNow"> Book Now </button>
             </div>
 
