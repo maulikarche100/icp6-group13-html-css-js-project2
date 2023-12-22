@@ -70,6 +70,7 @@
     border: 2px solid gray;
     border-radius: 15px;
     padding: 20px;
+    background-color:#f4f4f4;
 }
 .blog-img{
     height: 290px;
@@ -155,7 +156,11 @@ border-radius: 50%;
 .blog-card-4{
 width: 400px;
 height: 300px;
+padding: 20px;
+border-radius: 15px;
+border: 2px solid gray;
 margin-top: 80px;
+background-color:#f4f4f4;
 }
 .reply{
 text-align: center;
