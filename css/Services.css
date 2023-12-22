@@ -221,7 +221,7 @@ p {
   .gridsty__text {
     font-size: 55px;
     font-family: cursive;
-    color:black;
+    margin-left: 60px;
 
   }
 .head__h2 {
@@ -239,11 +239,29 @@ p {
 .imag{
   border-radius: 10px;
 }
+
+
 .imag2{
   border-radius: 10px;
   margin: 20px;
+  height: 30px;
 }
 
+.txt1 {
+  font-size: 20px;
+  color:black ;
+}
+
+.txt2 {
+  font-size: 20px;
+  color:black ;
+}
+
+.headi{
+  margin-top :80px;
+
+  
+}
 
 
   .footer{
