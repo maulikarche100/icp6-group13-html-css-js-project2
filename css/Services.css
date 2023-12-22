@@ -219,11 +219,32 @@ p {
   }
 
   .gridsty__text {
-    font-size: 30px;
+    font-size: 55px;
+    font-family: cursive;
+    color:black;
+
   }
 .head__h2 {
   font-size: 50px ;
 }
+.view-btn{
+  border-radius: 17px;
+ 
+}
+
+.view-btn2{
+  border-radius: 17px;
+}
+
+.imag{
+  border-radius: 10px;
+}
+.imag2{
+  border-radius: 10px;
+  margin: 20px;
+}
+
+
 
   .footer{
     display: flex;
