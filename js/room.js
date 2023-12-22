@@ -517,7 +517,7 @@ if(quantity < 400){
 dermentelement.innerText = quantity;
 }
 else{
-alert("ONLY FOR 400 PEOPLE")
+alert("ONLY FOR 350 PEOPLE")
 }
 }
 
