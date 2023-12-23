@@ -100,12 +100,11 @@ body {
     bottom: 40px;
     height: 22px;
     width: 160px;
-    box-shadow: 2px 2px 2px 2px tomato;
+    box-shadow: 1px 1px 1px 1px tomato;
 }
 
 .firstbox:hover {
-    transform: scale(1.10);
-
+    height: 23px;
 }
 
 .lastbox {
@@ -114,11 +113,11 @@ body {
     bottom: 40px;
     height: 22px;
     width: 160px;
-    box-shadow: 2px 2px 2px 2px tomato;
+    box-shadow: 1px 1px 1px 1px tomato;
 }
 
 .lastbox:hover {
-    transform: scale(1.10);
+    height: 23px;
 }
 
 .email {
