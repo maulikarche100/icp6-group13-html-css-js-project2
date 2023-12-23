@@ -445,7 +445,7 @@ if(quantity>1){
 incrmentelement.innerText = quantity;
 }
 else{
-alert("NOT BOOK ONLY FOR 50 PEOPLE")
+alert("NOT BOOK EMPTY HALL")
 }
 
  
@@ -501,7 +501,7 @@ if(quantity>1){
 incrmentelement.innerText = quantity;
 }
 else{
-alert("NOT BOOK ONLY FOR 50 PEOPLE")
+alert("NOT BOOK EMPTY HALL")
 }
 
  
@@ -517,7 +517,7 @@ if(quantity < 400){
 dermentelement.innerText = quantity;
 }
 else{
-alert("ONLY FOR 400 PEOPLE")
+alert("ONLY FOR 350 PEOPLE")
 }
 }
 
@@ -561,7 +561,6 @@ showSlides();
     setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
     
-
 
 
 

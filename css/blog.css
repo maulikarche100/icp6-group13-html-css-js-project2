@@ -1,3 +1,397 @@
-.novbar{
-    background-color: aliceblue;
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  .abc{
+      height: 150px;
+      width: 180px;
+      padding: 20px;
+      position:absolute;
+  }
+  .menus{
+      position: absolute;
+      left: 250px;
+      top: 80px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;
+  }
+  .text-decoration{
+      text-decoration: none;
+      padding: 25px;
+      color: white;
+      font-size: 30px;
+  }
+  .text-decoration:hover{
+      font-size: 29px;
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 1px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Caption text */
+  .text {
+    color: azure;
+    font-size: 110px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 130px;
+    width: 100%;
+    text-align: center;
+  }
+
+  body{
+    padding: 0px;
+    margin: 0px;
+}
+.blog-heding{
+    text-align: center;
+    color: tomato;
+    font-family: cursive; 
+    font-size: 50px;
+    margin: 20px;
+}
+.blog-contnar{
+    display: flex;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+}
+.blog-card{
+    margin: 20px;
+    height: 480px;
+    width: 400px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    background-color:#f4f4f4;
+}
+.blog-img{
+    height: 290px;
+    cursor: pointer;
+}
+.blog-img:hover{
+    height: 280px;
+}
+.blog-title{
+    text-align: center;
+    color: tomato;
+    margin-top: 10px;
+    font-family: cursive; 
+}
+.blog-heding-1{
+    text-align: center;
+    font-family: cursive; 
+    font-size: 20px;
+    margin: 20px;
+}
+
+.View-btn{
+height: 40px;
+width: 130px;
+margin-top: 20px;
+border-radius: 3px;
+cursor: pointer;
+font-size: 15px;
+color: black;
+background-color: tomato;
+margin-left:130px ;
+border: none;
+}
+.View-btn:hover{
+background-color:rgb(241, 170, 158) ;
+height: 37px;
+width: 135px;
+border-radius: 4px;
+}
+.blog-img-hade{
+height: 350px;
+margin: 20px;
+cursor: pointer;
+border: 2px solid black;
+
+}
+.blog-img-hade:hover{
+height: 340px;
+}
+.blog-card-2{
+width: 600px;
+height: 900px;
+margin-top: 40px;
+}
+.blog-card-3{
+width: 600px;
+height: 900px;
+
+}
+.blog-card-heding{
+text-align: center;
+    font-family: cursive; 
+    font-size: 37px;
+    margin: 30px;
+    color: tomato;
+}
+.blog-card-titile{
+text-align: center;
+    font-family: cursive; 
+    color: gray;
+}
+.blog-card-titile-1{
+text-align: center;
+    font-family: cursive; 
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.man-img{
+border-radius: 50%;
+}
+.blog-card-4{
+width: 400px;
+height: 300px;
+padding: 20px;
+border-radius: 15px;
+border: 2px solid gray;
+margin-top: 80px;
+background-color:#f4f4f4;
+}
+.reply{
+text-align: center;
+    font-family: cursive; 
+    font-size: 20px;
+}
+.name{
+font-family: cursive; 
+    font-size: 20px;
+}
+.text-1{
+margin: 40px;
+width: 300px;
+height: 30px;
+border: 1px solid gray;
+border-radius: 8px;
+}
+.text-2{
+
+width: 600px;
+height: 200px;
+border: 1px solid gray;
+border-radius: 8px;
+}
+.View-btn2{
+height: 40px;
+width: 180px;
+margin-top: 20px;
+border-radius: 3px;
+cursor: pointer;
+font-size: 15px;
+color: black;
+background-color: tomato;
+margin-left:130px ;
+border: none;
+}
+.View-btn2:hover{
+background-color:rgb(241, 170, 158) ;
+height: 37px;
+width: 190px;
+border-radius: 4px;
+}
+
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 150px;
+    height: 420px;
+    width: 100%;
+    background-color: #717171;
+}
+.footer-about-us{
+   margin-left: 10px;
+    height: 350px;
+    width: 350px;
+    color: white;
+}
+.about-us{
+    padding-top: 60px;
+    color: white;
+}
+.footer-nvigation{
+    height: 300px;
+    width: 400px;
+    padding-top: 60px;
+    color: white;
+
+}
+.navigation-pages{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.footer-connect{
+    height: 380px;
+    width: 400px;
+    padding-top: 60px;
+    color: white;
+}
+.location{
+    height: 25px;
+    width: 25px;
+}
+.location-address{
+    color: white;
+    text-decoration: none;
+}
+.mail{
+    height: 25px;
+    width: 25px;
+}
+.mail-address{
+    color: white;
+    text-decoration: none;
+}
+.contact{
+    height: 25px;
+    width: 25px;
+}
+.contact-address{
+    color: white;
+    text-decoration: none;
+}
+.facebook{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+.footer-last{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+.last-footer-text{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .footer{
+        margin-top: 90px;
+        height: 800px;
+        width: 100%;
+        background-color: #717171;
+    }
+    .footer-about-us{
+        height: 220px;
+        width: 350px;
+        color: white;
+    }
+    .about-us{
+        padding-top: 10px;
+        color: white;
+    }
+    .about-us-text{
+        font-size: 15px;
+    }
+    .footer-nvigation{
+        height: 250px;
+        width: 340px;
+        padding-top: 0px;
+        color: white;
+    }
+    .navigation-pages{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .footer-connect{
+        height: 300px;
+        width: 350px;
+        padding-top: 0px;
+        color: white;
+    }
+    .location{
+        height: 20px;
+        width: 20px;
+    }
+    .location-address{
+        color: white;
+        text-decoration: none;
+    }
+    .mail{
+        height: 20px;
+        width: 20px;
+    }
+    .mail-address{
+        color: white;
+        text-decoration: none;
+    }
+    .contact{
+        height: 20px;
+        width: 20px;
+    }
+    .contact-address{
+        color: white;
+        text-decoration: none;
+    }
+    .facebook{
+        height: 35px;
+        width: 35px;
+        cursor: pointer;
+    }
+    .footer-last{
+        height: 30px;
+        width: 100%;
+        background-color: black;
+    }
+    .last-footer-text{
+        color: white;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+
+    .abc{
+        height: 60px;
+        width: 110px;
+        padding: 1px;
+    }
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+    .menus{
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        left: 400px;
+        top: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold; 
+    }
+    .text-decoration{
+        text-decoration: none;
+        padding: 6px;
+        color: white;
+    }
+    .text {
+        font-size: 60px
+    }
+    .dot{
+        height: 10px;
+        width: 10px;
+    }
 }

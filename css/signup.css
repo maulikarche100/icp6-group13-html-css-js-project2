@@ -1,11 +1,10 @@
 body {
 
-    background-image:url('../images/new.jpeg');
+    background-image: url('../images/new.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
     width: 100%;
-    
 }
 
 .navbar {
@@ -73,67 +72,99 @@ body {
 .loginheading {
     margin-left: 20px;
     font-size: 40px;
-}
-
-.emailname {
-    margin-top: 50px;
-    margin-left: 40px;
-    font-size: 23px;
     position: relative;
-    bottom: 15px;
+    bottom: 10px;
+    left: 100px;
 }
 
-.emailbox {
-    margin-left: 40px;
-    height: 30px;
-    width: 280px;
+.name {
+    display: flex;
+}
+
+.first {
+    position: relative;
+    left: 16px;
+    bottom: 35px;
+    font-size: 18px;
+}
+
+.Last {
+    position: relative;
+    left: 40px;
+    bottom: 35px;
+    font-size: 18px;
+}
+
+.firstbox {
+    position: relative;
+    left: 15px;
+    bottom: 40px;
+    height: 22px;
+    width: 160px;
     box-shadow: 2px 2px 2px 2px goldenrod;
-    position: relative;
-    bottom: 25px;
 }
 
-.emailbox:hover {
+.firstbox:hover {
+    transform: scale(1.10);
+
+}
+
+.lastbox {
+    position: relative;
+    left: 39px;
+    bottom: 40px;
+    height: 22px;
+    width: 160px;
+    box-shadow: 2px 2px 2px 2px goldenrod;
+}
+
+.lastbox:hover {
     transform: scale(1.10);
 }
 
-.passwordname {
-    margin-top: 50px;
-    margin-left: 40px;
-    font-size: 23px;
+.email {
+    position: relative;
+    bottom: 45px;
+    left: 18px;
+}
+
+.emailbox {
+    height: 22px;
+    width: 348px;
+    box-shadow: 2px 2px 2px 2px goldenrod;
+    position: relative;
+    bottom: 53px;
+    left: 18px;
+}
+
+.emailbox:hover {
+    transform: scale(.90);
+}
+
+.password {
     position: relative;
     bottom: 55px;
+    left: 18px;
 }
 
 .Passwordbox {
-    margin-left: 40px;
-    height: 30px;
-    width: 280px;
+    height: 22px;
+    width: 348px;
     box-shadow: 2px 2px 2px 2px goldenrod;
     position: relative;
-    bottom: 65px;
+    bottom: 63px;
+    left: 18px;
 }
 
 .Passwordbox:hover {
     transform: scale(1.10);
 }
 
-.forgotpassword {
-    position: relative;
-    bottom: 69px;
-    left: 236px;
-    font-size: 13px;
-    cursor: pointer;
-}
-
-.forgotpassword:hover {
-    transform: scale(1.10);
-}
-
-.signin {
+.signup {
     background-color: goldenrod;
     color: white;
     position: relative;
-    bottom: 55px;
+    bottom: 50px;
     left: 130px;
     font-size: 18px;
     padding: 10px;
@@ -142,42 +173,40 @@ body {
     border: double 5px white;
     border-radius: 10px 0 10px 0;
     box-shadow: 1px 1px 1px 1px goldenrod;
-
-}
-
-.signin:hover {
-    transform: scale(1.10);
-    background-color: tomato;
-}
-
-.signup {
-    position: relative;
-    bottom: 16px;
-    left: 200px;
-    cursor: pointer;
-    font-size: 16px;
 }
 
 .signup:hover {
     transform: scale(1.10);
+    background-color: tomato;
+}
 
+.already {
+    position: relative;
+    bottom: 58px;
+    left: 210px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.already:hover {
+    transform: scale(1.10);
 }
 .footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 150px;
     height: 420px;
     width: 100%;
-    background-color: #717171;
-    margin-left: 0;
-    margin-right: 0;
+    background-color:  #717171;
+    margin-left: 0%;
 }
 .footer-about-us{
    margin-left: 10px;
-    height: 350px;
+    height: 300px;
     width: 350px;
     color: white;
+    border: 2px solid #717171;
 }
 .about-us{
     padding-top: 60px;
@@ -185,9 +214,11 @@ body {
 }
 .footer-nvigation{
     height: 300px;
-    width: 300px;
+    width: 400px;
     padding-top: 60px;
     color: white;
+    border: 2px solid #717171;
+
 }
 .navigation-pages{
     text-decoration: none;
@@ -195,10 +226,11 @@ body {
     font-size: 15px;
 }
 .footer-connect{
-    height: 380px;
+    height: 300px;
     width: 400px;
     padding-top: 60px;
     color: white;
+    border: 2px solid #717171;
 }
 .location{
     height: 25px;
@@ -233,6 +265,8 @@ body {
     height: 30px;
     width: 100%;
     background-color: black;
+    position: relative;
+    top: 40px;
 }
 .last-footer-text{
     color: white;
@@ -269,71 +303,64 @@ body {
 
     .loginbox {
         position: relative;
-        right: 610px;
+        right: 598px;
         bottom: 65px;
         height: 500px;
-        width: 990px;
+        width: 1000px;
         background-color: white;
         box-shadow: 3px 3px 5px 5px goldenrod;
         position: relative;
     }
 
-    .forgotpassword {
+    .firstbox {
         position: relative;
-        bottom: 69px;
-        left: 200px;
-        font-size: 13px;
-        cursor: pointer;
+        left: 15px;
+        bottom: 40px;
+        height: 22px;
+        width: 110px;
+        box-shadow: 2px 2px 2px 2px goldenrod;
     }
 
-    .signup {
+    .lastbox {
         position: relative;
-        bottom: 24px;
-        left: 120px;
-        cursor: pointer;
-        font-size: 16px;
-    }
-
-    .emailname {
-        margin-top: 50px;
-        margin-left: 20px;
-        font-size: 23px;
-        position: relative;
-        bottom: 15px;
+        left: 39px;
+        bottom: 40px;
+        height: 22px;
+        width: 110px;
+        box-shadow: 2px 2px 2px 2px goldenrod;
     }
 
     .emailbox {
-        margin-left: 20px;
-        height: 30px;
-        width: 280px;
+        height: 22px;
+        width: 310px;
         box-shadow: 2px 2px 2px 2px goldenrod;
         position: relative;
-        bottom: 25px;
-    }
-
-    .passwordname {
-        margin-top: 50px;
-        margin-left: 20px;
-        font-size: 23px;
-        position: relative;
-        bottom: 55px;
+        bottom: 53px;
+        left: 15px;
     }
 
     .Passwordbox {
-        margin-left: 20px;
-        height: 30px;
-        width: 280px;
+        height: 22px;
+        width: 300px;
         box-shadow: 2px 2px 2px 2px goldenrod;
         position: relative;
-        bottom: 65px;
+        bottom: 63px;
+        left: 15px;
     }
-    .signup {
+
+    .already {
         position: relative;
-        bottom: 13px;
-        left: 115px;
+        bottom: 58px;
+        left: 133px;
         cursor: pointer;
         font-size: 16px;
     }
-    
+    .loginheading {
+        margin-left: 20px;
+        font-size: 40px;
+        position: relative;
+        bottom: 15px;
+        left: 69px;
+
 }
 }
