@@ -63,16 +63,12 @@ section {
 
 .row {
   display: flex;
-  
-
 }
 
 .coloumn {
   width: 100%;
   padding: 0 1em 1em 1em;
   text-align: center;
-  
-
 }
 
 .card {
@@ -158,16 +154,12 @@ p {
   font-size: 25px;
   color:white;
 }
-
-.h2 section-title{
-  font-size: 25px;
-  color:white;
+.head_h2{
+  color: tomato;
 }
 
-.section h2 {
-  font-size: 25px;
-  color:white;
-}
+
+
 
 .btn {
   font-size: 17px;
@@ -307,13 +299,6 @@ font-size: 15px;
 font-family: cursive;
 color: black;
 }
-
-
-
-
-
-
-
 
 
 .footer{
