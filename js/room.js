@@ -445,7 +445,7 @@ if(quantity>1){
 incrmentelement.innerText = quantity;
 }
 else{
-alert("NOT BOOK ONLY FOR 50 PEOPLE")
+alert("NOT BOOK EMPTY HALL")
 }
 
  
@@ -501,7 +501,7 @@ if(quantity>1){
 incrmentelement.innerText = quantity;
 }
 else{
-alert("NOT BOOK ONLY FOR 50 PEOPLE")
+alert("NOT BOOK EMPTY HALL")
 }
 
  
