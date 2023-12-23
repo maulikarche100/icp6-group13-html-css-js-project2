@@ -295,12 +295,11 @@ body {
     .homebutton {
         color: white;
         position: relative;
-        left: 5px;
-        font-size: 20px;
-        bottom: 10px;
+        left: 1px;
+        font-size: 15px;
+        bottom: 6px;
 
     }
-
     .loginbox {
         position: relative;
         right: 598px;
