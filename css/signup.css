@@ -54,11 +54,11 @@ body {
 .loginbox {
     position: relative;
     right: 120px;
-    bottom: 65px;
+    bottom: 20px;
     height: 550px;
     width: 1200px;
     background-color: white;
-    box-shadow: 3px 3px 5px 5px tomato;
+    box-shadow: 2px 0px 9px 2px tomato;
     position: relative;
 }
 
