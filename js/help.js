@@ -1,5 +1,8 @@
 
-function showSlides() {
+let slideIndex = 0;
+showSlides();
+
+ function showSlides() {
     let i;
     let slides = document.getElementsByClassName("mySlides");
     let dots = document.getElementsByClassName("dot");
@@ -15,3 +18,4 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
+    
