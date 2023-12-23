@@ -129,14 +129,14 @@ body {
 .emailbox {
     height: 22px;
     width: 348px;
-    box-shadow: 2px 2px 2px 2px tomato;
+    box-shadow: 1px 1px 1px 1px tomato;
     position: relative;
     bottom: 53px;
     left: 18px;
 }
 
 .emailbox:hover {
-    transform: scale(.90);
+    height: 23px;
 }
 
 .password {
@@ -148,14 +148,14 @@ body {
 .Passwordbox {
     height: 22px;
     width: 348px;
-    box-shadow: 2px 2px 2px 2px tomato;
+    box-shadow: 1px 1px 1px 1px tomato;
     position: relative;
     bottom: 63px;
     left: 18px;
 }
 
 .Passwordbox:hover {
-    transform: scale(1.10);
+    height: 23px;
 }
 
 .signup {
@@ -174,8 +174,7 @@ body {
 }
 
 .signup:hover {
-    transform: scale(1.10);
-    background-color: tomato;
+    font-size: 16.5px;
 }
 
 .already {
