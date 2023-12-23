@@ -274,7 +274,6 @@ body {
     font-size: 15px;
     padding-left: 10px;
     display: block;
-    text-align: center;
 }
 @media (max-width:600px) {
     .brandlogo {
@@ -362,6 +361,79 @@ body {
         position: relative;
         bottom: 15px;
         left: 69px;
-
-}
+    }
+    .footer{
+        margin-top: 90px;
+        height: 800px;
+        width: 100%;
+        background-color: #717171;
+    }
+    .footer-about-us{
+        height: 220px;
+        width: 350px;
+        color: white;
+    }
+    .about-us{
+        padding-top: 10px;
+        color: white;
+    }
+    .about-us-text{
+        font-size: 15px;
+    }
+    .footer-nvigation{
+        height: 250px;
+        width: 340px;
+        padding-top: 0px;
+        color: white;
+    }
+    .navigation-pages{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .footer-connect{
+        height: 300px;
+        width: 350px;
+        padding-top: 0px;
+        color: white;
+    }
+    .location{
+        height: 20px;
+        width: 20px;
+    }
+    .location-address{
+        color: white;
+        text-decoration: none;
+    }
+    .mail{
+        height: 20px;
+        width: 20px;
+    }
+    .mail-address{
+        color: white;
+        text-decoration: none;
+    }
+    .contact{
+        height: 20px;
+        width: 20px;
+    }
+    .contact-address{
+        color: white;
+        text-decoration: none;
+    }
+    .facebook{
+        height: 35px;
+        width: 35px;
+        cursor: pointer;
+    }
+    .footer-last{
+        height: 30px;
+        width: 100%;
+        background-color: black;
+    }
+    .last-footer-text{
+        color: white;
+        font-size: 12px;
+        padding-left: 10px;
+    }
 }
