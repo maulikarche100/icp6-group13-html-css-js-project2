@@ -35,7 +35,6 @@ body{
     color: azure;
     font-size: 100px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 8px 12px;
     position: absolute;
     bottom: 130px;
     width: 100%;
@@ -77,10 +76,12 @@ body{
 .taj-hotel-img{
     border-radius: 10px;
     margin-right: 15%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 .taj-hotel-img1{
     margin-left: 10%;
     border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .about-page-description1{
@@ -100,6 +101,7 @@ body{
 .taj-hotel-img2{
     margin-right: 10%;
     border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .gallery-title{
