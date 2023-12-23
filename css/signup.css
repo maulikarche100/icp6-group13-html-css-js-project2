@@ -13,8 +13,8 @@ body {
 }
 
 .brandlogo {
-    height: 250px;
-    width: 300px;
+    height: 240px;
+    width: 280px;
 }
 
 .slogan {
@@ -55,17 +55,17 @@ body {
     position: relative;
     right: 120px;
     bottom: 65px;
-    height: 500px;
-    width: 990px;
+    height: 550px;
+    width: 1200px;
     background-color: white;
-    box-shadow: 3px 3px 5px 5px goldenrod;
+    box-shadow: 3px 3px 5px 5px tomato;
     position: relative;
 }
 
 .loginheader {
     height: 44px;
     width: 100%;
-    background-color: goldenrod;
+    background-color: tomato;
 
 }
 
@@ -101,7 +101,7 @@ body {
     bottom: 40px;
     height: 22px;
     width: 160px;
-    box-shadow: 2px 2px 2px 2px goldenrod;
+    box-shadow: 2px 2px 2px 2px tomato;
 }
 
 .firstbox:hover {
@@ -115,7 +115,7 @@ body {
     bottom: 40px;
     height: 22px;
     width: 160px;
-    box-shadow: 2px 2px 2px 2px goldenrod;
+    box-shadow: 2px 2px 2px 2px tomato;
 }
 
 .lastbox:hover {
@@ -131,7 +131,7 @@ body {
 .emailbox {
     height: 22px;
     width: 348px;
-    box-shadow: 2px 2px 2px 2px goldenrod;
+    box-shadow: 2px 2px 2px 2px tomato;
     position: relative;
     bottom: 53px;
     left: 18px;
@@ -150,7 +150,7 @@ body {
 .Passwordbox {
     height: 22px;
     width: 348px;
-    box-shadow: 2px 2px 2px 2px goldenrod;
+    box-shadow: 2px 2px 2px 2px tomato;
     position: relative;
     bottom: 63px;
     left: 18px;
@@ -161,7 +161,7 @@ body {
 }
 
 .signup {
-    background-color: goldenrod;
+    background-color: tomato;
     color: white;
     position: relative;
     bottom: 50px;
@@ -172,7 +172,7 @@ body {
     width: 110px;
     border: double 5px white;
     border-radius: 10px 0 10px 0;
-    box-shadow: 1px 1px 1px 1px goldenrod;
+    box-shadow: 1px 1px 1px 1px tomato;
 }
 
 .signup:hover {
@@ -308,7 +308,7 @@ body {
         height: 500px;
         width: 1000px;
         background-color: white;
-        box-shadow: 3px 3px 5px 5px goldenrod;
+        box-shadow: 3px 3px 5px 5px tomato;
         position: relative;
     }
 
@@ -318,7 +318,7 @@ body {
         bottom: 40px;
         height: 22px;
         width: 110px;
-        box-shadow: 2px 2px 2px 2px goldenrod;
+        box-shadow: 2px 2px 2px 2px tomato;
     }
 
     .lastbox {
@@ -327,13 +327,13 @@ body {
         bottom: 40px;
         height: 22px;
         width: 110px;
-        box-shadow: 2px 2px 2px 2px goldenrod;
+        box-shadow: 2px 2px 2px 2px tomato;
     }
 
     .emailbox {
         height: 22px;
         width: 310px;
-        box-shadow: 2px 2px 2px 2px goldenrod;
+        box-shadow: 2px 2px 2px 2px tomato;
         position: relative;
         bottom: 53px;
         left: 15px;
@@ -342,7 +342,7 @@ body {
     .Passwordbox {
         height: 22px;
         width: 300px;
-        box-shadow: 2px 2px 2px 2px goldenrod;
+        box-shadow: 2px 2px 2px 2px tomato;
         position: relative;
         bottom: 63px;
         left: 15px;
