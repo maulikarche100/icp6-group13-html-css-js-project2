@@ -31,10 +31,9 @@ body {
 .homebutton {
     color: white;
     position: relative;
-    left: 80px;
+    left: 30px;
     font-size: 22px;
-
-
+    text-decoration: none;
 }
 
 .slg2 {
@@ -54,7 +53,7 @@ body {
 .loginbox {
     position: relative;
     right: 120px;
-    bottom: 20px;
+    bottom: 10px;
     height: 550px;
     width: 1200px;
     background-color: white;
@@ -63,7 +62,7 @@ body {
 }
 
 .loginheader {
-    height: 44px;
+    height: 8px;
     width: 100%;
     background-color: tomato;
 
