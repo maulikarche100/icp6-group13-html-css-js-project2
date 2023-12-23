@@ -174,13 +174,18 @@ body {
 }
 
 .signup:hover {
-    font-size: 18.5px;
+    height: 52px;
+    width: 112px;
+    background-color: rgb(241, 170, 158);
+    color: black;
+    border: double 5px white;
+    border-radius: 10px 0 10px 0  tomato;
 }
 
 .already {
     position: relative;
-    bottom: 58px;
-    left: 210px;
+    bottom: 20px;
+    left: 220px;
     cursor: pointer;
     font-size: 16px;
 }
