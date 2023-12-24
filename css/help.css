@@ -45,9 +45,12 @@ body{
             font-size: 30px;
             font-weight: bold;
             text-align: center;
+            color: tomato;
+            font-family: cursive; 
         }
         .para{
             text-align: center;
+            font-family: cursive; 
         }
         
           
@@ -61,10 +64,11 @@ body{
                     justify-content:center;  
                 }
                 .hotel-card:hover{
-                    background-color: gray;
+                 
                     cursor: pointer;
                     border-radius: 30px;
                     box-shadow: 0 0 10px gray;
+                    transition: 10 step-end;
                 }
                 .container{
                             display: flex;
