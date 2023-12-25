@@ -275,7 +275,7 @@ body {
         right: 610px;
         bottom: 65px;
         height: 500px;
-        width: 990px;
+        width: 1200px;
         background-color: white;
         box-shadow: 3px 3px 5px 5px tomato;
         position: relative;
@@ -325,7 +325,7 @@ body {
     .Passwordbox {
         margin-left: 20px;
         height: 30px;
-        width: 250px;
+        width: 300px;
         box-shadow: 2px 2px 2px 2px tomato;
         position: relative;
         bottom: 65px;
