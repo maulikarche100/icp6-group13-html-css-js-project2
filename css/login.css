@@ -308,7 +308,7 @@ body {
     .emailbox {
         margin-left: 20px;
         height: 30px;
-        width: 280px;
+        width: 250px;
         box-shadow: 2px 2px 2px 2px tomato;
         position: relative;
         bottom: 25px;
@@ -325,7 +325,7 @@ body {
     .Passwordbox {
         margin-left: 20px;
         height: 30px;
-        width: 280px;
+        width: 250px;
         box-shadow: 2px 2px 2px 2px tomato;
         position: relative;
         bottom: 65px;
