@@ -436,6 +436,18 @@ select {
     border-radius: 4px;
 }
 
+.btnConfirm {
+    height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    background-color: tomato;
+    position: relative;
+    left: 20px;
+}
 
 
 }
