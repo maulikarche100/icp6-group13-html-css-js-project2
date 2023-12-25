@@ -331,7 +331,7 @@ body {
 
     .emailbox {
         height: 22px;
-        width: 310px;
+        width: 280px;
         box-shadow: 2px 2px 2px 2px tomato;
         position: relative;
         bottom: 53px;
@@ -340,7 +340,7 @@ body {
 
     .Passwordbox {
         height: 22px;
-        width: 300px;
+        width: 330px;
         box-shadow: 2px 2px 2px 2px tomato;
         position: relative;
         bottom: 63px;
