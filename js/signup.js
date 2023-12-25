@@ -7,7 +7,7 @@ var pass = document.getElementById('pass').value;
 var phone = document.getElementById('phone').value;
 
 
-if (eml === 'eml' && pass === 'pass' && fst === 'fst'&& lst === 'lst'&& phone === 'phone'
+if (eml === 'email12@gmail.com' && pass === 'pass' && fst === 'mauli'&& lst === 'karche'&& phone === '7709482439'
 ){
 alert('your account is successfully registered');
 
